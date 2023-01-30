@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# zip the shapefiles in the given directory into their own zip file.
+# TODO: write help message.
+# TODO: Avoid compressing .. 
+
+command -v zip >/dev/null 2>&1 || { echo >&2 "I require zip but it's not installed.  Aborting."; exit 1; }
+command -v parallel >/dev/null 2>&1 || { echo >&2 "I require GNU parallel but it's not installed.  Aborting."; exit 1; }
+
+read -p "Zip each shapefile in the current location. Do you want to continue [y,N]? " -n 1 -r
+echo
+if [[ ! $REPLY =~ ^[Yy]$ ]]
+then
+        [[ "$0" = "$BASH_SOURCE" ]] && exit 1 || return 1
+fi
+
+parallel -j 0 zip {.}.zip {.}* ::: $(find . -maxdepth 1 -type f -name '*\.shp')
+
