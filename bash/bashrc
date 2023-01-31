@@ -118,21 +118,32 @@ fi
 
 
 # Alber
-setxkbmap -option ctrl:ctrl_modifier
+
+# Deactivate Caps Lock. 
+# NOTE: It doesn't work in Fedora 37: 
+# WARNING: Running setxkbmap against an XWayland server
+#setxkbmap -option ctrl:ctrl_modifier
+#setxkbmap -option caps:none
+
+# Set bash to use vim bindings.
 set -o vi
 set editing-mode vi
 set keymap vi
 
-# if hash neofetch 2>/dev/null; then
-#     neofetch
-# else 
-#     echo "Please install neofetch!"
-# fi
+# Print system information when bash starts.
+# NOTE: fastfetch is faster than neofetch!
+if hash neofetch 2>/dev/null; then
+    neofetch
+fi
+if hash fastfetch 2>/dev/null; then
+    fastfetch
+fi
 
-export PS1='[\u@\h \W$(__git_ps1 " (%s)")]\$ '
 
 MITSCHEME_6001_DIRECTORY="/home/alber/Documents/tutorials/computer_science/structure_interpretation_computer_programs/problem_sets"
 
+# Change the prompt to show git branch
+export PS1='[\u@\h \W$(__git_ps1 " (%s)")]\$ '
 source ~/.git-completion.bash
 source ~/.git-prompt.sh
 
