@@ -55,3 +55,12 @@ alias   nameif="echo 'STOP. Use instead ip route'"
 alias iwconfig="echo 'STOP. Use instead iw'"
 alias iptables="echo 'STOP. Use instead nftables'"
 
+#------------------------------------------------------------------------------
+alias thesaurus="aiksaurus"
+
+# https://opensource.com/article/23/2/linux-dict-command
+alias dictionary="dict"
+
+# https://www.tecmint.com/wikipedia-commandline-tool/
+alias wikipedia="wikit"
+
