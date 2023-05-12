@@ -132,13 +132,23 @@ set keymap vi
 
 # Print system information when bash starts.
 # NOTE: fastfetch is faster than neofetch!
-if hash neofetch 2>/dev/null; then
-    neofetch
-fi
-if hash fastfetch 2>/dev/null; then
-    fastfetch
-fi
+# if hash neofetch 2>/dev/null; then
+#     neofetch
+# fi
+# if hash fastfetch 2>/dev/null; then
+#     fastfetch
+# fi
 
+# Let the cow tell your fortune!
+if hash cowsay 2>/dev/null; then
+    if hash fortune 2>/dev/null; then
+        fortune -a | cowsay -r
+    else
+        cowsay "You need to install fortune!"
+    fi
+else
+    echo "INFO: Install cowsay!"
+fi
 
 MITSCHEME_6001_DIRECTORY="/home/alber/Documents/tutorials/computer_science/structure_interpretation_computer_programs/problem_sets"
 
