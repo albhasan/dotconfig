@@ -4,7 +4,7 @@ external-url-viewer "urlview"
 
 bind-key h quit
 bind-key BACKSPACE quit
-binid-key j down
+bind-key j down
 bind-key k up
 bind-key l open
 bind-key J prev-feed
@@ -33,6 +33,5 @@ highlight article ":.*\\(link\\)$" cyan default
 highlight article ":.*\\(image\\)$" blue default
 highlight article ":.*\\(embedded flash\\)$" magenta default
 
-# browser "readable -s ~/.cache/wal/style.css %u 2> /dev/null > /tmp/output.html; qutebrowser /tmp/output.html"
-# browser linkhandler
+browser "firefox --new-tab %u"
 
