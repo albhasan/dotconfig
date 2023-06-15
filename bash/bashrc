@@ -142,7 +142,7 @@ set keymap vi
 # Let the cow tell your fortune!
 if hash cowsay 2>/dev/null; then
     if hash fortune 2>/dev/null; then
-        fortune -a | cowsay -r
+        fortune -a | cowsay
     else
         cowsay "You need to install fortune!"
     fi
@@ -156,4 +156,8 @@ MITSCHEME_6001_DIRECTORY="/home/alber/Documents/tutorials/computer_science/struc
 export PS1='[\u@\h \W$(__git_ps1 " (%s)")]\$ '
 source ~/.git-completion.bash
 source ~/.git-prompt.sh
+
+# Required in MXlinux
+PATH=$PATH:/usr/sbin:/sbin
+export PATH
 
