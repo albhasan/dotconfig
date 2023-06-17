@@ -108,13 +108,13 @@ if has('autocmd')
     augroup trailingspaces
         autocmd!
         " Remove white spaces at lines' end when saving.
-        autocmd BufWritePre *.py,*.js,*.R, *.Rmd :call <SID>StripTrailingWhitespaces()
+        autocmd BufWritePre *.py,*.js,*.R,*.Rmd :call <SID>StripTrailingWhitespaces()
     augroup END
 
     augroup ctags
         autocmd!
        " Run ctags each time a source file is saved.
-       autocmd BufWritePost *.py,*.js,*.R,*.c,*.cpp,*.h call system("ctags -R --exclude=.venv/* --exclude=venv/* --exclude=test")
+       autocmd BufWritePost *.py,*.js,*.R,*.c,*.cpp,*.h call system("ctags -R --exclude=.venv --exclude=venv --exclude=test")
     augroup END
 
     augroup filetype_vim
