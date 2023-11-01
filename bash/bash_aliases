@@ -61,6 +61,13 @@ alias thesaurus="aiksaurus"
 # https://opensource.com/article/23/2/linux-dict-command
 alias dictionary="dict"
 
-# https://www.tecmint.com/wikipedia-commandline-tool/
-alias wikipedia="wikit"
+
+# https://www.tecmint.com/wikipedia-commandline-tool/ # NOTE: It requies nodejs
+#alias wikipedia="wikit"
+alias wikipedia="wikipedia2text -s" # NOTE: It also requires w3m!
+
+# Fun shell commands
+# https://youtu.be/peyx6LXk2rk
+alias translate="trans"
+alias weather="curl wttr.in/Sao\_Jose_dos\_Campos"
 
