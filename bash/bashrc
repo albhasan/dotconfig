@@ -126,7 +126,8 @@ setxkbmap -option ctrl:ctrl_modifier
 setxkbmap -option caps:none
 
 # Set bash to use vim bindings.
-EDITOR=vi
+export VISUAL=vim
+export EDITOR="$VISUAL"
 set -o vi
 set editing-mode vi
 set keymap vi
@@ -143,7 +144,7 @@ set keymap vi
 # Let the cow tell your fortune!
 if hash cowsay 2>/dev/null; then
     if hash fortune 2>/dev/null; then
-        fortune -a | cowsay
+        fortune | cowsay
     else
         cowsay "You need to install fortune!"
     fi
