@@ -61,7 +61,6 @@ alias thesaurus="aiksaurus"
 # https://opensource.com/article/23/2/linux-dict-command
 alias dictionary="dict"
 
-
 # https://www.tecmint.com/wikipedia-commandline-tool/ # NOTE: It requies nodejs
 #alias wikipedia="wikit"
 alias wikipedia="wikipedia2text -s" # NOTE: It also requires w3m!
@@ -69,5 +68,20 @@ alias wikipedia="wikipedia2text -s" # NOTE: It also requires w3m!
 # Fun shell commands
 # https://youtu.be/peyx6LXk2rk
 alias translate="trans"
-alias weather="curl wttr.in/Sao\_Jose_dos\_Campos"
+alias weather="curl wttr.in/Sao+Jose+dos+Campos?n"
+
+alias password="keepassxc-cli open ~/passdb.kdbx "
+alias password_find="keepassxc-cli search ~/passdb.kdbx "
+alias password_search=password_find
+alias password_copy="keepassxc-cli clip  ~/passdb.kdbx "
+alias password_show="keepassxc-cli show ~/passdb.kdbx "
+
+alias periodic_table="periodic-table-cli"
+
+alias radio="cvlc https://bdjelectronicloungeradio.stream.laut.fm/bdj_electronic_lounge_radio?t302=2023-11-16_12-53-36&uuid=3b3896dc-f6a2-4860-a846-23a1c77d57a3"
+
+alias volume_low="amixer sset 'Master' 30%"
+alias volume_medium="amixer sset 'Master' 50%"
+alias volume_high="amixer sset 'Master' 80%"
+
 
