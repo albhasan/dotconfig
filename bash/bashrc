@@ -160,6 +160,6 @@ source ~/.git-completion.bash
 source ~/.git-prompt.sh
 
 # Required in MXlinux
-PATH=$PATH:/usr/sbin:/sbin
-export PATH
+#PATH=$PATH:/usr/sbin:/sbin
+#export PATH
 
