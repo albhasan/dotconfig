@@ -84,4 +84,5 @@ alias volume_low="amixer sset 'Master' 30%"
 alias volume_medium="amixer sset 'Master' 50%"
 alias volume_high="amixer sset 'Master' 80%"
 
+alias explorer="nemo " # Linux Mint
 
