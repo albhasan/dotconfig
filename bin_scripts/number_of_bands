@@ -1,0 +1,19 @@
+#!/bin/bash
+
+function myHelp () {
+cat <<-END
+Usage:
+number_of_bands path_to_image
+END
+}
+
+command -v gdalinfo >/dev/null 2>&1 || { echo >&2 "gdalinfo is not installed.  Aborting."; exit 1; }
+
+if [ "$#" -ne 1 ]; then
+    echo "Illegal number of parameters"
+    myHelp
+    exit 1
+fi
+
+gdalinfo "$1" | tail -2 | grep "Band" | cut -d " " -f 2
+
