@@ -2,8 +2,8 @@
 # Check  Three tricks to make IDEs other than Rstudio better for R development https://youtu.be/uxyhmhRVOfw?si=Jksjl4IRy4lqWwF3
 
 # Use this to navigate plots when programming using the linux console.
-httpgd:hgd()
-# httpgs::browse() # Open plots in a new console.
+httpgd::hgd()
+httpgd::hgd_browse()
 
 # View data 
 options(reactable.theme = reactable::reactableTheme(
