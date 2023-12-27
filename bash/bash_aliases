@@ -59,7 +59,14 @@ alias      scp="echo 'STOP. Use instead rsync'"
 alias thesaurus="aiksaurus"
 
 # https://opensource.com/article/23/2/linux-dict-command
+# https://www.xmodulo.com/how-to-look-up-dictionary-via-command-line-on-linux.html
+# dict-freedict-spa-eng
+# dict-freedict-por-eng
+# dict-freedict-deu-eng
 alias dictionary="dict"
+alias diccionario="dict -d fd-spa-eng"
+alias dicionario="dict -d fd-por-eng"
+alias worterbuch="dict -d fd-deu-eng"
 
 # https://www.tecmint.com/wikipedia-commandline-tool/ # NOTE: It requies nodejs
 #alias wikipedia="wikit"
@@ -85,4 +92,5 @@ alias volume_medium="amixer sset 'Master' 50%"
 alias volume_high="amixer sset 'Master' 80%"
 
 alias explorer="nemo " # Linux Mint
+alias files="nemo "
 
