@@ -1,0 +1,9 @@
+#!/bin/bash
+echo "Pomodoro..."
+cdown 1200
+echo "Pomodoro finished!"
+echo ""
+echo "Break..."
+cdown 300
+echo "Break finished!"
+exit 0
