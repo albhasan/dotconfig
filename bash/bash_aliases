@@ -94,3 +94,13 @@ alias volume_high="amixer sset 'Master' 80%"
 alias explorer="nemo " # Linux Mint
 alias files="nemo "
 
+alias gato="oneko"
+alias perro="oneko -dog"
+alias sakura="oneko -sakura"
+alias tomoyo="oneko -tomoyo"
+alias tigre="oneko -tora"
+
+alias anime="~/Documents/github/ani-cli/./ani-cli"
+
+alias docker="podman"
+
