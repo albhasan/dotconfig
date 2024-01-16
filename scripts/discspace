@@ -1,5 +1,0 @@
-#!/bin/bash
-# Display the space availabe on each disc.
-df -hT | head -n 1 
-df -hT | sort | grep sd
-

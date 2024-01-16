@@ -1,4 +1,0 @@
-#!/bin/bash
-# count the number of files in each directory the the current pwd
-du -a | cut -d/ -f2 | sort | uniq -c | sort -nr
-
