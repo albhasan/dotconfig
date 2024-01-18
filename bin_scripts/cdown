@@ -13,6 +13,6 @@ while [[ $((--N)) > 0 ]]; do
         echo "$N" | figlet -c | lolcat && sleep 1; 
 done
 
-timeout 5 speaker-test -t sine -f 500 > /dev/null
+timeout 3 speaker-test -t sine -f 500 > /dev/null
 
 exit 0
