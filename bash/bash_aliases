@@ -85,7 +85,6 @@ alias password_show="keepassxc-cli show ~/passdb.kdbx "
 
 alias periodic_table="periodic-table-cli"
 
-alias radio="cvlc https://bdjelectronicloungeradio.stream.laut.fm/bdj_electronic_lounge_radio?t302=2023-11-16_12-53-36&uuid=3b3896dc-f6a2-4860-a846-23a1c77d57a3"
 
 alias volume_low="amixer sset 'Master' 30%"
 alias volume_medium="amixer sset 'Master' 50%"
@@ -103,4 +102,17 @@ alias tigre="oneko -tora"
 alias anime="~/Documents/github/ani-cli/./ani-cli"
 
 alias docker="podman"
+
+# Listen to the lofi girl on youtube.
+alias lofi="mpv --cache=auto --fs https://www.youtube.com/watch?v=jfKfPfyJRdk"
+
+alias radio_chillsynth="mpv --cache=auto https://stream.nightride.fm/chillsynth.mp3"
+alias radio_chillout="mpv --cache=auto http://strm112.1.fm/chilloutlounge_mobile_mp3"
+alias radio_darksynth="mpv --cache=auto https://stream.nightride.fm/darksynth.mp3"
+alias radio_horrorsynth="mpv --cache=auto https://stream.nightride.fm/horrorsynth.mp3"
+alias radio_metal_france="mpv --cache=auto http://hd.lagrosseradio.info/lagrosseradio-metal-192.mp3"
+alias radio_radionica="mpv --cache=auto http://shoutcast.rtvc.gov.co:8010/;"
+alias radio_synthwave="mpv --cache=auto http://188.40.97.185:8179/stream"
+alias radio_ud="mpv --cache=auto http://200.69.103.69:8000/laud"
+
 
