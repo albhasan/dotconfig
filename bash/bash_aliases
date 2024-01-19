@@ -110,9 +110,15 @@ alias radio_chillsynth="mpv --cache=auto https://stream.nightride.fm/chillsynth.
 alias radio_chillout="mpv --cache=auto http://strm112.1.fm/chilloutlounge_mobile_mp3"
 alias radio_darksynth="mpv --cache=auto https://stream.nightride.fm/darksynth.mp3"
 alias radio_horrorsynth="mpv --cache=auto https://stream.nightride.fm/horrorsynth.mp3"
+alias radio_metal_denmark="mpv --cache=auto "
 alias radio_metal_france="mpv --cache=auto http://hd.lagrosseradio.info/lagrosseradio-metal-192.mp3"
+alias radio_metal_germany="mpv --cache=auto http://s8-webradio.rockantenne.de/heavy-metal"
+alias radio_metal_poland="mpv --cache=auto http://stream.open.fm/108"
+alias radio_metal_usa="mpv --cache=auto https://ice5.somafm.com/metal-128-aac"
 alias radio_radionica="mpv --cache=auto http://shoutcast.rtvc.gov.co:8010/;"
 alias radio_synthwave="mpv --cache=auto http://188.40.97.185:8179/stream"
 alias radio_ud="mpv --cache=auto http://200.69.103.69:8000/laud"
+
+alias youtube="ytfzf"
 
 
