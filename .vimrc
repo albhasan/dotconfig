@@ -78,7 +78,7 @@ set wrap lbr nolist
 set relativenumber
 set number
 
-colorscheme murphy
+"colorscheme murphy
 "colorscheme onedark
 
 syntax enable
