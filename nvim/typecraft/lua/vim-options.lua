@@ -8,3 +8,4 @@ vim.cmd("set relativenumber")
 vim.cmd("set number")
 vim.g.mapleader = " "
 
+vim.cmd("hi Normal guibg=NONE")
