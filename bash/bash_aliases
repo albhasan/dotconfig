@@ -91,7 +91,8 @@ alias volume_medium="amixer sset 'Master' 50%"
 alias volume_high="amixer sset 'Master' 80%"
 
 alias explorer="nemo " # Linux Mint
-alias files="nemo "
+#alias files="nemo "
+alias files="ranger"
 
 alias gato="oneko"
 alias perro="oneko -dog"
@@ -126,3 +127,5 @@ alias youtube_subs="ytfzf -cSI"
 alias rss="newsboat"
 
 alias git_gui="lazygit"
+
+alias gapminder="~/Documents/software/appimage/Gapminder+Offline.AppImage"
