@@ -3,7 +3,7 @@
 
 # Use this to navigate plots when programming using the linux console.
 httpgd::hgd()
-httpgd::hgd_browse()
+#httpgd::hgd_browse()
 
 # View data 
 options(reactable.theme = reactable::reactableTheme(
