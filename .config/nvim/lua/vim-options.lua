@@ -6,6 +6,7 @@ vim.cmd("set colorcolumn=80")
 vim.cmd("set clipboard+=unnamedplus")
 vim.cmd("set relativenumber")
 vim.cmd("set number")
+vim.cmd("set autoindent smartindent")
 vim.g.mapleader = " "
 
 
