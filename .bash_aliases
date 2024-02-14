@@ -129,3 +129,6 @@ alias rss="newsboat"
 alias git_gui="lazygit"
 
 alias gapminder="~/Documents/software/appimage/Gapminder+Offline.AppImage"
+
+alias calendar="calcurse"
+
