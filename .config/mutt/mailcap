@@ -1,0 +1,24 @@
+text/plain; less %s; copiousoutput
+
+# HTML
+#text/html; firefox %s; test=test -n "$display"; needsterminal;
+text/html; lynx -assume_charset=%{charset} -display_charset=utf-8 -dump -width=1024 %s; nametemplate=%s.html; copiousoutput;
+#text/html; w3m -I %{charset} -T text/html; copiousoutput;
+
+# PDFs
+#application/pdf; firefox %s; test=test -n "$display"; needsterminal;
+application/pdf; /usr/bin/evince %s pdf
+
+# Images
+#image/png;  /usr/bin/eog %s
+#image/jpeg; /usr/bin/eog %s
+image/png;  /usr/bin/xviewer %s
+image/jpeg; /usr/bin/xviewer %s
+image/pjpeg; /usr/bin/xviewer %s
+
+# MS Word documents
+application/msword; ~/dotfiles/office/view-attachment.sh %s "-" '/Applications/LibreOffice.app'
+application/vnd.ms-excel; ~/dotfiles/office/view-attachment.sh %s "-" '/Applications/LibreOffice.app'
+application/vnd.openxmlformats-officedocument.presentationml.presentation; ~/dotfiles/office/view-attachment.sh %s "-" '/Applications/LibreOffice.app'
+application/vnd.oasis.opendocument.text; ~/dotfiles/office/view-attachment.sh %s "-" '/Applications/LibreOffice.app'
+

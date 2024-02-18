@@ -1,0 +1,22 @@
+# vim: filetype=neomuttrc
+# muttrc file for account albhasan@gmail.com
+set realname = "Alber Sánchez"
+set from = "albhasan@gmail.com"
+set sendmail = "msmtp -a albhasan@gmail.com"
+alias me Alber Sánchez <albhasan@gmail.com>
+set folder = "imaps://albhasan@gmail.com@imap.gmail.com:993"
+set header_cache = "/home/alber/.cache/mutt-wizard/albhasan_gmail.com/headers"
+set message_cachedir = "/home/alber/.cache/mutt-wizard/albhasan_gmail.com/bodies"
+set mbox_type = Maildir
+set hostname = "gmail.com"
+source /usr/local/share/mutt-wizard/switch.muttrc
+set spoolfile = "+INBOX"
+set postponed = "+Drafts"
+set trash = "+Trash"
+set record = "+Sent"
+set imap_user = "albhasan@gmail.com"
+set imap_pass = "`pass albhasan@gmail.com`"
+set ssl_starttls = yes
+set ssl_force_tls = yes
+macro index o "<shell-escape>mailsync albhasan@gmail.com<enter>" "sync albhasan@gmail.com"
+mailboxes "=Chistes" "=Colegas" "=DACD" "=Educacion/Diplomado" "=Educacion/EspGerenciaProyectos" "=Educacion/INPE" "=Educacion/Maestria UD" "=Educacion/UD" "=FIDUPREVISORA" "=Fotos" "=GIS" "=GITHUB" "=IBAGUE" "=ICARE" "=IFGI/52North/SWE" "=IFGI/BLISS" "=IFGI/UNI-MUENSTER" "=IFGI/thesis-mscgi" "=INBOX" "=INPE_concurso_2023" "=Java" "=Junk E-mail" "=Los mios" "=Los otros" "=MscGeoInfo" "=OOSH" "=Outbox" "=Trabajo/Accion Social" "=Trabajo/Acuadatos" "=Trabajo/Barrancabermeja" "=Trabajo/Bolivia" "=Trabajo/CAR Cundinamarca" "=Trabajo/CajaViviendaMilitar" "=Trabajo/Costa Rica" "=Trabajo/DKRZ" "=Trabajo/FENOCO" "=Trabajo/IPER" "=Trabajo/Inarcad SA" "=Trabajo/MIJ-Prevencion" "=Trabajo/Manizales" "=Trabajo/Ministerio Cultura" "=Trabajo/Ministerio Interior" "=Trabajo/Ministerio Transporte" "=Trabajo/Parquesoft" "=Trabajo/ProyectoGustavo" "=Trabajo/PurificacionTolima" "=Trabajo/VICA" "=[Gmail]/All Mail" "=[Gmail]/Drafts" "=[Gmail]/Important" "=[Gmail]/Sent Mail" "=[Gmail]/Spam" "=[Gmail]/Starred" "=[Gmail]/Trash" "=email"

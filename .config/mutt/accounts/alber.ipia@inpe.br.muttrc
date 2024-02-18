@@ -1,0 +1,23 @@
+# vim: filetype=neomuttrc
+# muttrc file for account alber.ipia@inpe.br
+set realname = "Alber Sánchez"
+set from = "alber.ipia@inpe.br"
+set sendmail = "msmtp -a alber.ipia@inpe.br"
+alias me Alber Sánchez <alber.ipia@inpe.br>
+set folder = "imaps://alber.ipia@inpe.br@imap.gmail.com:993"
+set header_cache = "/home/alber/.cache/mutt-wizard/alber.ipia_inpe.br/headers"
+set message_cachedir = "/home/alber/.cache/mutt-wizard/alber.ipia_inpe.br/bodies"
+set mbox_type = Maildir
+set hostname = "inpe.br"
+source /usr/local/share/mutt-wizard/switch.muttrc
+set spoolfile = "+INBOX"
+set postponed = "+Drafts"
+set trash = "+Trash"
+set record = "+Sent"
+set imap_user = "alber.ipia@inpe.br"
+set imap_pass = "`pass alber.ipia@inpe.br`"
+set ssl_starttls = yes
+set ssl_force_tls = yes
+set signature=$HOME/.config/mutt/signatures/signature_inpe
+macro index o "<shell-escape>mailsync alber.ipia@inpe.br<enter>" "sync alber.ipia@inpe.br"
+mailboxes "=Backup/.aaaaaazzzzz/.projects.BDC.geoknowledge_hub" "=Backup/.aaaaaazzzzz/.projects.BDC.inpe_ibge_embrapa" "=Backup/.aaaaaazzzzz/.projects.BDC.issues.evi_20211214" "=Backup/.projects.BDC.issues" "=Backup/.projects.BDC.marcelo_maranhao" "=Backup/.projects.BDC.meetings" "=Backup/.projects.BDC.opensearchR" "=Backup/.projects.BDC.papers" "=Backup/.projects.BDC.reports" "=Backup/.projects.BDC.reproducibility" "=Backup/.projects.BDC.samples" "=Backup/.projects.BDC.sciserver" "=Backup/.projects.BDC.services" "=Backup/.projects.BDC.tech_talks" "=Backup/.projects.BDC.terraClass_cerrado" "=Backup/.projects.BDC.workshop" "=Backup/.projects.ICAI_2022" "=Backup/.projects.cqma" "=Backup/.projects.segmetric" "=Backup/.projects.sentinel-1_datacube" "=Backup/.projects.sits" "=Backup/.projects.sits.prodes" "=Backup/.projects.sits.sentinel_aws_amazonia" "=Backup/.projects.sits.webinar" "=Backup/.projects.thesis" "=Backup/.projects.thesis.ABNER_terracollect" "=Backup/.projects.thesis.DIEGO_MATOS_clouds" "=Backup/.projects.thesis.FELIPE_CARVALHO_indices" "=Backup/.projects.thesis.FELIPE_MENINO_mixture_model" "=Backup/.projects.thesis.FELIPE_PERIN_lstm" "=Backup/.projects.thesis.ISABEL_ESCADA_mato_grosso" "=Backup/.projects.thesis.LEONARDO_time_series" "=Backup/.projects.thesis.NATALIA_samples" "=Backup/.publications" "=Backup/.publications.bayesianSmoother" "=Backup/.publications.clouds" "=Backup/.publications.clouds.samples_1" "=Backup/.publications.clouds.samples_2" "=Backup/.publications.cqma" "=Backup/.publications.cqma.background_method" "=Backup/.publications.cqma.influence_area" "=Backup/.publications.cqma.methane" "=Backup/.publications.deforestation_sentinel" "=Backup/.publications.most_deforested_towns" "=Backup/.publications.reviews.revista_brasileira_cartografia" "=Backup/.publications.sampling" "=INBOX" "=[Gmail]/All Mail" "=[Gmail]/Drafts" "=[Gmail]/Important" "=[Gmail]/Sent Mail" "=[Gmail]/Spam" "=[Gmail]/Starred" "=[Gmail]/Trash" "=mailing_lists/INPE" "=mailing_lists/carpentries" "=mailing_lists/debian-gis" "=mailing_lists/gdal" "=mailing_lists/grass" "=mailing_lists/jobs" "=mailing_lists/journals" "=mailing_lists/mapbiomas" "=mailing_lists/nasa" "=mailing_lists/news" "=mailing_lists/osm" "=mailing_lists/other" "=mailing_lists/proj" "=mailing_lists/r-sig-geo" "=mailing_lists/sepal" "=personal/PhD/banca_defesa" "=personal/PhD/docs" "=personal/online_education/Worketa" "=personal/online_education/hysplit" "=projects/ISPR_TCII" "=projects/TREES_Lab/R_lesson" "=projects/TREES_Lab/bolsa" "=projects/TREES_Lab/masters_ignacio" "=projects/TREES_Lab/paper_debora" "=projects/TREES_Lab/webpage" "=projects/TREES_Lab/weekly_meetings" "=projects/bdc/FOSS4G/.projects.BDC.events" "=projects/bdc/biomes/amazon" "=projects/bdc/biomes/caatinga" "=projects/bdc/biomes/cerrado" "=projects/bdc/biomes/matlantica" "=projects/bdc/biomes/pantanal" "=projects/bdc/bolsa" "=projects/bdc/citizen_science" "=projects/bdc/clouds_cbers" "=projects/bdc/data" "=projects/bdc/hardware" "=projects/bdc/terraclass_continuo" "=projects/carpentries" "=projects/clouds_cbers" "=projects/clouds_paper" "=projects/clouds_sentinel" "=projects/cqma" "=projects/deforestation_model" "=projects/grass" "=projects/icai" "=projects/open_science" "=projects/sits" "=publications/cqma" "=publications/fire_fwi" "=publications/fire_samerafrica" "=publications/geoinfo" "=publications/geoinfo2023" "=publications/k-textures" "=publications/sbsr2023" "=review/frontiers" "=review/mdpi" "=review/rs_applications"
