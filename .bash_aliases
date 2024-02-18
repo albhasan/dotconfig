@@ -107,6 +107,9 @@ alias docker="podman"
 # Listen to the lofi girl on youtube.
 alias lofi="mpv --cache=auto --fs https://www.youtube.com/watch?v=jfKfPfyJRdk"
 
+
+alias radio_bebop="echo 'Reduce volume!'; cdown 4; mpv --cache=auto http://listen.181fm.com/181-bebop_128k.mp3"
+alias radio_bebop2="echo 'Reduce volume!'; cdown 4; mpv --cache=auto https://1.ice1.sslstream.com/kkjz_hd.aac"
 alias radio_chillsynth="echo 'Reduce volume!'; cdown 4; mpv --cache=auto https://stream.nightride.fm/chillsynth.mp3"
 alias radio_chillout="echo 'Reduce volume!'; cdown 4; mpv --cache=auto http://strm112.1.fm/chilloutlounge_mobile_mp3"
 alias radio_darksynth="echo 'Reduce volume!'; cdown 4; mpv --cache=auto https://stream.nightride.fm/darksynth.mp3"
