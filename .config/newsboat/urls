@@ -20,6 +20,8 @@ https://www.webhare-test.utsp.utwente.nl/en/organization/careers/!/rss          
 https://recruitingapp-5128.de.umantis.com/RssFeed/71/rss.xml                                         "~Jobs | UFZ"
 http://unu.edu/about/hr/feed                                                                         "~Jobs | UN University" "jobs"
 
+http://feeds.feedburner.com/pm-podcast "~Project Management | PMPodcast" "The Project Management Podcast"
+
 https://distrowatch.com/news/news-headlines.xml "~Tech | distrowatch"
 http://www.fsf.org/news/aggregator/RSS          "~Tech | Free Software Foundation"
 http://itsfoss.com/feed                         "~Tech | itsfoss"
@@ -49,7 +51,6 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UClnDI2sdehVm1zm_LmUHsjQ "~Y
 https://www.youtube.com/feeds/videos.xml?channel_id=UCCODtTcd5M1JavPCOr_Uydg "~YT history | Extra Credits"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCHKRfxkMTqiiv4pF99qGKIw "~YT history | Geographics"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCfCKvREB11-fxyotS1ONgww "~YT history | Mark Felton Productions"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCsVWpmoRsNAWZb59b6Pt9Kg "~YT history | MrWissen2go Geschichte" "history" "german"
 https://www.youtube.com/feeds/videos.xml?channel_id=UC9h8BDcXwkhZtnqoQJ7PggA "~YT history | Warographics"
 
 https://www.youtube.com/feeds/videos.xml?channel_id=UC9Lp_AA5M2cMGrlvnnIns-g "~YT Earth | Bizarre Beasts"
@@ -73,6 +74,16 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCP5tjEmvPItGyLhmjdwP7Ww "~Y
 https://www.youtube.com/feeds/videos.xml?channel_id=UC6107grRI4m0o2-emgoDnAA "~YT engineering | SmarterEveryDay"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCj1VqrHhDte54oLgPG4xpuQ "~YT engineering | Stuff Made Here"
 https://www.youtube.com/feeds/videos.xml?channel_id=UConVfxXodg78Tzh5nNu85Ew "~YT engineering | Welch Labs"
+
+https://www.youtube.com/feeds/videos.xml?channel_id=UCc1vIyrMyMfunxySghEs8wQ "~YT German | Deutsch lernen mit Deutschlernerblog" "video" "languages" "german"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCbxb2fqe9oNgglAoYqsYOtQ "~YT German | Easy German" "video" "languages" "german"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCzOHLoNwbebvEkn7y6x-EWA "~YT German | musstewissen Deutsch" "video" "languages" "german"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC146qqkUMTrn4nfSSOTNwiA "~YT German | musstewissen Chemie"  "video" "science" "german"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCaxX8488TqU6bZdcKpxPVvQ "~YT German | musstewissen Mathe" "math" "german"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC9RSWjfMU3qMixhigyHjEgw "~YT German | musstewissen Physik" "video" "science" "german"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCP8e6wK18jJNdJpKkeQDlsA "~YT German | Terra X plus" "video" "science" "german"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCZHpIFMfoJJ_1QxNGLJTzyA "~YT German | MrWissen2go" "video" "science" "german"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCsVWpmoRsNAWZb59b6Pt9Kg "~YT German | MrWissen2go Geschichte" "history" "german"
 
 https://www.youtube.com/feeds/videos.xml?channel_id=UC2iaRtEaE3Xbj3wPBot1-ZQ "~YT institutes | DLR"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCr51KMSVvRICQNdsg9otmJA "~YT institutes | Earth Institute"
@@ -98,7 +109,24 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCOWcZ6Wicl-1N34H0zZe38w "~Y
 https://www.youtube.com/feeds/videos.xml?channel_id=UC5UAwBUum7CPN5buc-_N1Fw "~YT linux | Linux Experiment"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCd4XwUn2Lure2NHHjukoCwA "~YT linux | Linux For Everyone"
 https://www.youtube.com/feeds/videos.xml?channel_id=UC7YOGHUfC1Tb6E4pudI9STA "~YT linux | Mental Outlaw"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCpZ5qUqpW4hW4zdfuBxMSJA "~YT linux | Mental Floss"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCMiyV_Ib77XLpzHPQH_q0qQ "~YT linux | Veronica Explains"
+
+https://www.youtube.com/feeds/videos.xml?channel_id=UCcIXc5mJsHVYTZR1maL5l9w "~YT machine learning | DeepLearningAI"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC0rqucBdTuFTjJiefW5t-IQ "~YT machine learning | TensorFlow"
+
+https://www.youtube.com/feeds/videos.xml?channel_id=UC1_uAIS3r8Vu6JjXWvastJg "YT math | Mathologer" "video" "math"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCTpmmkp1E4nmZqWPS-dl5bg "YT math | Quanta magazine" "video" "math"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC4zzTEL5tuIgGMvzjk1Ozbg "YT math | Henry Segerman" "video" "math"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC9yt3wz-6j19RwD5m5f6HSg "YT math | Think Twice" "video" "math"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCSju5G2aFaWMqn-_0YBtq5A "YT math | Stand-up Maths" "video" "math"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCIyDqfi_cbkp-RU20aBF-MQ "YT math | Richard E Borcherd " "video" "math"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCHnj59g7jezwTy5GeL8EA_g "YT math | MindYourDecisions" "video" "math"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC52kszkc08-acFOuogFl5jw "YT math | Tibees" "video" "math"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCiXdIRM2hXnwkwwtmOr2KGQ "YT math | Math Centre Humber College" "video" "math"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCYO_jab_esuFRV4b17AJtAw "YT math | 3Blue1Brown" "video" "math"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCoxcjq-8xIDTYp3uz647V5A "YT math | Numberphile" "video" "math"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCyp1gCHZJU_fGWFf2rtMkCg "YT math | Numberphile2" "video" "math"
 
 https://www.youtube.com/feeds/videos.xml?channel_id=UC415bOPUcGSamy543abLmRA "~YT news | Cleo Abram"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCmGSJVG3mCRXVOP4yZrU1Dw "~YT news | Johnny Harris"
@@ -167,15 +195,12 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCB01WjameYMvL7-XfI8vRIA "yo
 https://www.youtube.com/feeds/videos.xml?channel_id=UCDYT9mM3L_ByrPYMyl0MGGg "youtube/BBC Ideas"
 
 
-https://www.youtube.com/feeds/videos.xml?channel_id=UCcIXc5mJsHVYTZR1maL5l9w "~YT machine learning | DeepLearningAI"
-https://www.youtube.com/feeds/videos.xml?channel_id=UC0rqucBdTuFTjJiefW5t-IQ "~YT machine learning | TensorFlow"
 
 
 
-
-https://feeds.feedburner.com/wcrp-academy/yvkomgp2kk5 "Courses & tutorials"
-https://tomatofox.wordpress.com/feed "blogs"
-https://nautil.us/feed "Nautilus" "other"
+https://feeds.feedburner.com/wcrp-academy/yvkomgp2kk5 "~Tutorials | World Climate Research Program" "tutorials"
+https://tomatofox.wordpress.com/feed "Blogs | Meng Lu" "blogs"
+https://nautil.us/feed "~News | Nautilus" "other"
 
 
 
@@ -191,28 +216,6 @@ https://nautil.us/feed "Nautilus" "other"
 
 
 
-
-https://www.youtube.com/feeds/videos.xml?channel_id=UCbxb2fqe9oNgglAoYqsYOtQ "video" "languages" "german"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCzOHLoNwbebvEkn7y6x-EWA "video" "languages" "german"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCc1vIyrMyMfunxySghEs8wQ "video" "languages" "german"
-
-https://www.youtube.com/feeds/videos.xml?channel_id=UC1_uAIS3r8Vu6JjXWvastJg "video" "math"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCTpmmkp1E4nmZqWPS-dl5bg "video" "math"
-https://www.youtube.com/feeds/videos.xml?channel_id=UC4zzTEL5tuIgGMvzjk1Ozbg "video" "math"
-https://www.youtube.com/feeds/videos.xml?channel_id=UC9yt3wz-6j19RwD5m5f6HSg "video" "math"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCSju5G2aFaWMqn-_0YBtq5A "video" "math"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCIyDqfi_cbkp-RU20aBF-MQ "video" "math"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCHnj59g7jezwTy5GeL8EA_g "video" "math"
-https://www.youtube.com/feeds/videos.xml?channel_id=UC52kszkc08-acFOuogFl5jw "video" "math"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCiXdIRM2hXnwkwwtmOr2KGQ "video" "math"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCyp1gCHZJU_fGWFf2rtMkCg "video" "math"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCYO_jab_esuFRV4b17AJtAw "video" "math"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCoxcjq-8xIDTYp3uz647V5A "video" "math"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCaxX8488TqU6bZdcKpxPVvQ "video" "math" "german"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCP8e6wK18jJNdJpKkeQDlsA "video" "science" "german"
-https://www.youtube.com/feeds/videos.xml?channel_id=UC146qqkUMTrn4nfSSOTNwiA "video" "science" "german"
-https://www.youtube.com/feeds/videos.xml?channel_id=UC9RSWjfMU3qMixhigyHjEgw "video" "science" "german"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCZHpIFMfoJJ_1QxNGLJTzyA "video" "science" "german"
 
 https://open-research-europe.ec.europa.eu/published/rss "Open Research Europe"
 http://herbsutter.wordpress.com/feed/ "Sutter’s Mill"
@@ -306,7 +309,6 @@ https://statmodeling.stat.columbia.edu/category/bayesian-statistics/feed "Bayesi
 https://ropensci.org/tags/newsletter/index.xml "newsletter on rOpenSci - open tools for open science"
 https://agstack.org/feed "software/Agstack"
 https://r-nimble.org/feed "software/NIMBLE"
-http://feeds.feedburner.com/pm-podcast "The Project Management Podcast"
 https://globalcarbonbudget.org/feed/ "Global Carbon Budget"
 https://www.woodwellclimate.org/feed "Woodwell Climate"
 https://observatorioflorestal.org.br/en/feed/ "news/climate_change/Observatório do Código Florestal"
