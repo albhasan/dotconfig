@@ -135,3 +135,5 @@ alias gapminder="~/Documents/software/appimage/Gapminder+Offline.AppImage"
 
 alias calendar="calcurse"
 
+alias pdfreader="zathura"
+
