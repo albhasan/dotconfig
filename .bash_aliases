@@ -5,44 +5,38 @@
 # 12 useful bash aliases that can make you more productive in linux
 # https://www.lostsaloon.com/technology/12-useful-bash-aliases-that-you-can-make-you-more-productive-in-linux/
 
-alias lh='ls -lisAd .[^.]*' # Print only hidden files.
-alias la='ls -lisA'         # Detailed print.
+alias cd..="cd .."                # Avoid typo.
+alias cp='cp -iv'                 # Safe copy.
+alias la='ls -lisA'               # Detailed print.
+alias lh='ls -lisAd .[^.]*'       # Print only hidden files.
+alias ff='find . -type f -iname'  # Search file by name
+alias hs='history|grep -i '       # Case insensitive search in history.
+alias lsmount="mount | column -t" # Pretty print mounted partitions 
+alias mv='mv -iv'                 # Safe move.
+alias pdw="pwd"                   # Avoid typo.
+alias pwd='pwd && pwd | xclip -sel clipboard' # Do pwd and copy it!
+alias rm='rm -iv'                 # Safe remove.
+alias rms='shred -uz'             # Remove file.
+alias tgz='tar -xvzf'             # Untar.
 
-alias cp='cp -iv'           # Safe copy.
-alias rm='rm -iv'           # Safe remove.
-#alias rm='rm -Iv'           # Safe remove (less intrusive).
-alias mv='mv -iv'           # Safe move.
-alias rms='shred -uz'       # Remove file.
-
-#alias mkdir='mkdir -pv'    # Make folder and its parents.
-alias hs='history|grep -i ' # Case insensitive search in history.
-alias tgz='tar -xvzf'       # Untar.
-alias ff='find . -type f -iname' # Search file by name
-
+# alias mkdir='mkdir -pv'    # Make folder and its parents.
 # alias mvn='nice -5 mvn'
 # alias emerge='nice -10 emerge'
 # alias rd='rdesktop -z -g 1600x1024 -d mydev -u tom' # Usage: $ rd remotemachine
 # alias rs='rsync -avz --progress --delete-after'
 
-alias cd..="cd .."           # Avoid typo.
-alias pdw="pwd"              # Avoid typo.
-alias pwd='pwd && pwd | xclip -sel clipboard' # Do pwd and copy it!
-
-
 #------------------------------------------------------------------------------
 # Linux essentials https://youtu.be/Ok_kD_sgNcs
 
-# Speed test
-alias speedtest="curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python3 -"         
-
-alias lsmount="mount | column -t" # Pretty print mounted partitions 
+alias cpu5="ps auxf | sort -nr -k 3 | head -5" # Top t processes using the most cpu.
 alias extip="curl icanhazip.com"  # Print my external ip address.
 alias mem5="ps auxf | sort -nr -k 4 | head -5" # Top 5 processes using the most memory.
-alias cpu5="ps auxf | sort -nr -k 3 | head -5" # Top t processes using the most cpu.
+alias speedtest="curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python3 -"         
 
 #------------------------------------------------------------------------------
 # Deprecated linux commands you should not use anymore (and their alternatives)
 # https://itsfoss.com/deprecated-linux-commands/
+
 alias      arp="echo 'STOP. Use instead ip n'"
 alias    egrep="echo 'STOP. Use instead grep -E'"
 alias    fgrep="echo 'STOP. Use instead grep -F'"
@@ -56,25 +50,36 @@ alias    route="echo 'STOP. Use instead ip tunnel'"
 alias      scp="echo 'STOP. Use instead rsync'"
 
 #------------------------------------------------------------------------------
-alias thesaurus="aiksaurus"
-
+# Utilities
 # https://opensource.com/article/23/2/linux-dict-command
 # https://www.xmodulo.com/how-to-look-up-dictionary-via-command-line-on-linux.html
-# dict-freedict-spa-eng
-# dict-freedict-por-eng
-# dict-freedict-deu-eng
+# https://www.tecmint.com/wikipedia-commandline-tool/ # NOTE: It requies nodejs
+# https://youtu.be/peyx6LXk2rk
+
+alias anime="~/Documents/github/ani-cli/./ani-cli"
+alias calendar="calcurse"
+alias explorer="nemo " # Linux Mint
+alias files="ranger" #alias files="nemo "
+alias gapminder="~/Documents/software/appimage/Gapminder+Offline.AppImage"
+alias git_gui="lazygit"
+
 alias dictionary="dict"
 alias diccionario="dict -d fd-spa-eng"
 alias dicionario="dict -d fd-por-eng"
 alias worterbuch="dict -d fd-deu-eng"
-
-# https://www.tecmint.com/wikipedia-commandline-tool/ # NOTE: It requies nodejs
-#alias wikipedia="wikit"
+alias thesaurus="aiksaurus"
+alias translate="trans"
 alias wikipedia="wikipedia2text -s" # NOTE: It also requires w3m!
 
-# Fun shell commands
-# https://youtu.be/peyx6LXk2rk
-alias translate="trans"
+alias docker="podman"
+
+alias gato="oneko"
+alias perro="oneko -dog"
+alias sakura="oneko -sakura"
+alias tomoyo="oneko -tomoyo"
+alias tigre="oneko -tora"
+
+alias periodic_table="periodic-table-cli"
 alias weather="curl wttr.in/Sao+Jose+dos+Campos?n"
 
 alias password="keepassxc-cli open ~/passdb.kdbx "
@@ -83,31 +88,10 @@ alias password_search=password_find
 alias password_copy="keepassxc-cli clip  ~/passdb.kdbx "
 alias password_show="keepassxc-cli show ~/passdb.kdbx "
 
-alias periodic_table="periodic-table-cli"
+alias pdfreader="zathura"
+alias pdfviewer="zathura"
 
-
-alias volume_low="amixer sset 'Master' 30%"
-alias volume_medium="amixer sset 'Master' 50%"
-alias volume_high="amixer sset 'Master' 80%"
-
-alias explorer="nemo " # Linux Mint
-#alias files="nemo "
-alias files="ranger"
-
-alias gato="oneko"
-alias perro="oneko -dog"
-alias sakura="oneko -sakura"
-alias tomoyo="oneko -tomoyo"
-alias tigre="oneko -tora"
-
-alias anime="~/Documents/github/ani-cli/./ani-cli"
-
-alias docker="podman"
-
-# Listen to the lofi girl on youtube.
-alias lofi="mpv --cache=auto --fs https://www.youtube.com/watch?v=jfKfPfyJRdk"
-
-
+alias lofi="mpv --cache=auto --fs https://www.youtube.com/watch?v=jfKfPfyJRdk" # Listen to the lofi girl on youtube.
 alias radio_bebop="echo 'Reduce volume!'; cdown 4; mpv --cache=auto http://listen.181fm.com/181-bebop_128k.mp3"
 alias radio_bebop2="echo 'Reduce volume!'; cdown 4; mpv --cache=auto https://1.ice1.sslstream.com/kkjz_hd.aac"
 alias radio_chillsynth="echo 'Reduce volume!'; cdown 4; mpv --cache=auto https://stream.nightride.fm/chillsynth.mp3"
@@ -123,17 +107,13 @@ alias radio_radionica="echo 'Reduce volume!'; cdown 4; mpv --cache=auto http://s
 alias radio_synthwave="echo 'Reduce volume!'; cdown 4; mpv --cache=auto http://188.40.97.185:8179/stream"
 alias radio_ud="echo 'Reduce volume!'; cdown 4; mpv --cache=auto http://200.69.103.69:8000/laud"
 
+alias rss="newsboat"
+
+alias volume_low="amixer sset 'Master' 30%"
+alias volume_medium="amixer sset 'Master' 50%"
+alias volume_high="amixer sset 'Master' 80%"
+
 alias youtube="ytfzf" # Install it from github!
 alias youtube_img="ytfzf -t"
 alias youtube_subs="ytfzf -cSI" 
-
-alias rss="newsboat"
-
-alias git_gui="lazygit"
-
-alias gapminder="~/Documents/software/appimage/Gapminder+Offline.AppImage"
-
-alias calendar="calcurse"
-
-alias pdfreader="zathura"
 
