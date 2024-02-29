@@ -91,6 +91,7 @@ alias password_show="keepassxc-cli show ~/passdb.kdbx "
 alias pdfreader="zathura"
 alias pdfviewer="zathura"
 
+alias music="cmus"
 alias lofi="mpv --cache=auto --fs https://www.youtube.com/watch?v=jfKfPfyJRdk" # Listen to the lofi girl on youtube.
 alias radio_bebop="echo 'Reduce volume!'; cdown 4; mpv --cache=auto http://listen.181fm.com/181-bebop_128k.mp3"
 alias radio_bebop2="echo 'Reduce volume!'; cdown 4; mpv --cache=auto https://1.ice1.sslstream.com/kkjz_hd.aac"
