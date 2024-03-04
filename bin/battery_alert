@@ -1,0 +1,16 @@
+#!/bin/bash
+###############################################################################
+# Bash Script to get Low Battery Alert in Linux
+# https://www.geeksforgeeks.org/bash-script-to-get-low-battery-alert-in-linux/
+###############################################################################
+
+battery_level=$(acpi -b | grep -P -o '[2-9]+(?=%)')
+
+if [[ $battery_level -lt 20 ]]
+then
+    # NOTE: cron-notify works with Linux Mint.
+    ~/bin/cron-notify "Low battery!" 
+fi
+
+exit 0
+
