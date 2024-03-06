@@ -4,6 +4,26 @@ http://phdcomics.com/gradfeed.php           "~Comics | PhD comics" "comics"
 https://www.smbc-comics.com/comic/rss       "~Comics | Saturday morning" "comics"
 https://www.xkcd.com/rss.xml                "~Comics | xkdc" "comics"
 
+https://www.iaaa.es/feed                                     "~Education | Advanced Information Systems Lab" "edu/Advanced Information Systems Laboratory"
+https://info.bc3research.org/feed/                           "~Education | Basque Centre for Climate Change" "edu/Basque Centre for Climate Change"
+https://eesa.lbl.gov/feed                                    "~Education | Berkeley Lab" "edu/BerkeleyLab-EESA"
+https://www.cirad.fr/en/rss/cirad-actualites-news            "~Education | CIRAD" "edu/CIRAD - Actualités  News"
+https://geoai.geog.buffalo.edu/posts/feed/                   "~Education | GeoAI Lab" "edu/GeoAI"
+https://geosocial.zgis.at/feed                               "~Education | GeoSocial Analytics Lab" "edu/Geosocial Analytics Lab"
+https://geods.geography.wisc.edu/archives/category/news/feed "~Education | GeoSpatial Data Science Lab" "edu/GeoDS Lab"
+https://heigit.org/rss                                       "~Education | Heidelberg Institute for Geoinformation Technology" "edu/Heidelberg Institute for Geoinformation Technology"
+https://www.iarai.ac.at/feed                                 "~Education | Institute of Advanced Research in AI" "edu/IARAI"
+http://www.uni-muenster.de/Geoinformatics/en/news/index.rss  "~Education | IFGI news" "edu/ifgi/IFGI news"
+https://kiste-project.de/feed                                "~Education | IFGI Kiste Project" "edu/ifgi/Kiste Project"
+http://www.inpe.br/rss.php                                   "~Education | INPE news" "edu/inpe/INPE news"
+https://climate.nasa.gov/news/rss.xml                        "~Education | NASA climate" "edu/Global Climate Change - Vital Signs of the Planet - News RSS Feed"
+http://openeo.org/feed.xml                                   "~Education | OpenEO" "edu/ifgi/openEO"
+https://rslab.disi.unitn.it/feed                             "~Education | RSLab UniTrento" "edu/RSLab UniTrento"
+https://society-rse.org/feed                                 "~Education | Society of Research Software Engineering" "edu/Society of Research Software Engineering"
+https://www.treeslab.org/1/feed                              "~Education | TREESLab" "edu/inpe/TREES Research Lab - NEWS"
+https://www.uv.es/fatwirepub/Satellite?pagename=UV/Page/TPGNovedadesSindicadas&c=Page&cs.contenttype=application/xml;charset=UTF-8&pageId=1285860188160&site=345&locale=en_GB&tipo=D "~Education | Earth Physics and Thermodynamics Department" "edu/Earth Physics and Thermodynamics Department"
+https://52north.org/feed/                                    "~Education | 52 North" "edu/ifgi/52°North Initiative for Geospatial Open Source Software GmbH"
+
 https://academicpositions.co.uk/rss/?&index=jobs:en:6                                               "~Jobs | Academic positions" "jobs"
 https://www.dkrz.de/about-en/vacancies/vacancies/RSS                                                "~Jobs | DKRZ" "jobs"
 https://www.dlr.de/dlr/jobs/en//contentxxl/services/export/getcontent.aspx?mid=1003&mdefid=71&eid=7 "~Jobs | DLR"
@@ -45,7 +65,7 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCbOX--VOebPe-MMRkatFRxw "~Y
 https://www.youtube.com/feeds/videos.xml?channel_id=UCTZXht1RTL2Duc3eU8MYGzQ "~YT datascience | Bruno Rodrigues"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCNMawpMow-lW5d2svGhOEbw "~YT datascience | Data Science Simplified"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCTTBgWyJl2HrrhQOOc710kA "~YT datascience | Julia Silge"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCtYLUTtgS3k1Fg4y5tAhLbw "~YT datascience | StatQuet"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCtYLUTtgS3k1Fg4y5tAhLbw "~YT datascience | StatQuest"
 
 https://www.youtube.com/feeds/videos.xml?channel_id=UClnDI2sdehVm1zm_LmUHsjQ "~YT history | Biographics"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCCODtTcd5M1JavPCOr_Uydg "~YT history | Extra Credits"
@@ -81,9 +101,9 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCzOHLoNwbebvEkn7y6x-EWA "~Y
 https://www.youtube.com/feeds/videos.xml?channel_id=UC146qqkUMTrn4nfSSOTNwiA "~YT German | musstewissen Chemie"  "video" "science" "german"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCaxX8488TqU6bZdcKpxPVvQ "~YT German | musstewissen Mathe" "math" "german"
 https://www.youtube.com/feeds/videos.xml?channel_id=UC9RSWjfMU3qMixhigyHjEgw "~YT German | musstewissen Physik" "video" "science" "german"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCP8e6wK18jJNdJpKkeQDlsA "~YT German | Terra X plus" "video" "science" "german"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCZHpIFMfoJJ_1QxNGLJTzyA "~YT German | MrWissen2go" "video" "science" "german"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCsVWpmoRsNAWZb59b6Pt9Kg "~YT German | MrWissen2go Geschichte" "history" "german"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCP8e6wK18jJNdJpKkeQDlsA "~YT German | Terra X plus" "video" "science" "german"
 
 https://www.youtube.com/feeds/videos.xml?channel_id=UC2iaRtEaE3Xbj3wPBot1-ZQ "~YT institutes | DLR"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCr51KMSVvRICQNdsg9otmJA "~YT institutes | Earth Institute"
@@ -98,6 +118,11 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCWqPRUsJlZaDp-PVbqEch9g "~Y
 https://www.youtube.com/feeds/videos.xml?channel_id=UCI4QZvveQSWeMdF36ZLEmBw "~YT institutes | WWF Forest and Climate"
 https://www.youtube.com/feeds/videos.xml?channel_id=UC1b93o_l58ZaJcDBiuJfIKQ "~YT institutes | wwumuenster"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCIJ7QPejAmnQZJT33Qxg2JA "~YT institutes | Yale Center for Research Computing [YCRC]"
+
+https://www.youtube.com/feeds/videos.xml?channel_id=UC415bOPUcGSamy543abLmRA "~YT journalism | Cleo Abram"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCmGSJVG3mCRXVOP4yZrU1Dw "~YT journalism | Johnny Harris"
+https://www.youtube.com/feeds/videos.xml?channel_id=UChaCUP5MpLcCFTg6J5XRmRA "~YT journalism | Search Party"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCLXo7UDZvByw2ixzpQCufnA "~YT journalism | Vox"
 
 https://www.youtube.com/feeds/videos.xml?channel_id=UCZiL6BoryLWxyapUuVYW27g "~YT linux | Average Linux User"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCld68syR8Wi-GY_n4CaoJGA "~YT linux | Brodie Robertson"
@@ -128,10 +153,7 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCYO_jab_esuFRV4b17AJtAw "YT
 https://www.youtube.com/feeds/videos.xml?channel_id=UCoxcjq-8xIDTYp3uz647V5A "YT math | Numberphile" "video" "math"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCyp1gCHZJU_fGWFf2rtMkCg "YT math | Numberphile2" "video" "math"
 
-https://www.youtube.com/feeds/videos.xml?channel_id=UC415bOPUcGSamy543abLmRA "~YT news | Cleo Abram"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCmGSJVG3mCRXVOP4yZrU1Dw "~YT news | Johnny Harris"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCd-swDW3HCs4LTZhq8Cf7Fg "~YT news | DW Euromaxx"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCLXo7UDZvByw2ixzpQCufnA "~YT news | Vox"
 
 https://www.youtube.com/feeds/videos.xml?channel_id=UC1VzCyqpmCaRh8_BnijbOvg "~YT philosophy | Carneadesorg"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCNvsIonJdJ5E4EXMa65VYpA "~YT philosophy | ContraPoints"
@@ -148,6 +170,7 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCXgNowiGxwwnLeQ7DXTwXPg "~Y
 https://www.youtube.com/feeds/videos.xml?channel_id=UCvBqzzvUBLCs8Y7Axb-jZew "~YT physics | Sixty Symbols"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCEIwxahdLz7bap-VDs9h35A "~YT physics | Steve Mould"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCHnyfMqiRRG1u-2MsSQLbXA "~YT physics | Veritasium"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC6IxnFzHofFJ5X2PycSMsww "~YT physics | xkcd_whatif"
 
 https://www.youtube.com/feeds/videos.xml?channel_id=UCaSCt8s_4nfkRglWCvNSDrg "~YT | programming CodeAesthetic"
 https://www.youtube.com/feeds/videos.xml?channel_id=UC8butISFwT-Wl7EV0hUK0BQ "~YT | programming freeCodeCamporg"
@@ -173,8 +196,9 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCtxJFU9DgUhfr2J2bveCHkQ "~Y
 https://www.youtube.com/feeds/videos.xml?channel_id=UC6nSFpj9HTCZ5t-N3Rm3-HA "~YT science | Vsauce"
 
 https://www.youtube.com/feeds/videos.xml?channel_id=UCL_r1ELEvAuN0peKUxI0Umw "~YT tutorials | Discover Permaculture with Geoff Lawton"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCWWPKhD0fbAHHMg9_i6JQ5A "~YT tutorials | MyWhyU"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCjjPrhh_tr3a8Ov40HXp_YQ "~YT tutorials | GitButler"
 https://www.youtube.com/feeds/videos.xml?channel_id=UC2zHjOF9Womes-SEjdzTleA "~YT tutorials | Google Earth"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCWWPKhD0fbAHHMg9_i6JQ5A "~YT tutorials | MyWhyU"
 https://www.youtube.com/feeds/videos.xml?channel_id=UC6HFFFYiV4zEYJlQMIXemWA "~YT tutorials | OpenGeoHub Foundation"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCNJK6_DZvcMqNSzQdEkzvzA "~YT tutorials | Richard McElreath"
 https://www.youtube.com/feeds/videos.xml?channel_id=UC-wb-n89yM0lBiP2QltsDaA "~YT tutorials | sciwrite stanford"
@@ -199,23 +223,11 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCDYT9mM3L_ByrPYMyl0MGGg "yo
 
 
 https://feeds.feedburner.com/wcrp-academy/yvkomgp2kk5 "~Tutorials | World Climate Research Program" "tutorials"
+
+
 https://tomatofox.wordpress.com/feed "Blogs | Meng Lu" "blogs"
+
 https://nautil.us/feed "~News | Nautilus" "other"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 https://open-research-europe.ec.europa.eu/published/rss "Open Research Europe"
 http://herbsutter.wordpress.com/feed/ "Sutter’s Mill"
@@ -224,25 +236,6 @@ https://carbonmapper.org/feed "rs_data_providers/Carbon Mapper"
 https://lpdaac.usgs.gov/news_feed "rs_data_providers/LP DAAC News"
 https://scihub.copernicus.eu/news/WebRss20 "rs_data_providers/Copernicus Open Access Hub News"
 https://earthexplorer.usgs.gov/rss/notifications "~Data | Earth Explorer" "rs_data_providers/EarthExplorer Notifications"
-https://52north.org/feed/ "~Edu | 52 North" "edu/ifgi/52°North Initiative for Geospatial Open Source Software GmbH"
-http://www.uni-muenster.de/Geoinformatics/en/news/index.rss "edu/ifgi/IFGI news"
-https://kiste-project.de/feed "edu/ifgi/Kiste Project"
-http://openeo.org/feed.xml "~Edu | OpenEO" "edu/ifgi/openEO"
-https://geosocial.zgis.at/feed "~Edu | geosocial analytics lab" "edu/Geosocial Analytics Lab"
-https://rslab.disi.unitn.it/feed "edu/RSLab UniTrento"
-https://www.iaaa.es/feed "edu/Advanced Information Systems Laboratory"
-https://www.treeslab.org/1/feed "Edu | TREESLab" "edu/inpe/TREES Research Lab - NEWS"
-http://www.inpe.br/rss.php "edu/inpe/INPE news"
-https://eesa.lbl.gov/feed "edu/BerkeleyLab-EESA"
-https://www.iarai.ac.at/feed "edu/IARAI"
-https://www.uv.es/fatwirepub/Satellite?pagename=UV/Page/TPGNovedadesSindicadas&c=Page&cs.contenttype=application/xml;charset=UTF-8&pageId=1285860188160&site=345&locale=en_GB&tipo=D "edu/Earth Physics and Thermodynamics Department"
-https://geods.geography.wisc.edu/archives/category/news/feed "edu/GeoDS Lab"
-https://climate.nasa.gov/news/rss.xml "edu/Global Climate Change - Vital Signs of the Planet - News RSS Feed"
-https://heigit.org/rss "edu/Heidelberg Institute for Geoinformation Technology"
-https://society-rse.org/feed "edu/Society of Research Software Engineering"
-https://geoai.geog.buffalo.edu/posts/feed/ "edu/GeoAI"
-https://info.bc3research.org/feed/ "edu/Basque Centre for Climate Change"
-https://www.cirad.fr/en/rss/cirad-actualites-news "edu/CIRAD - Actualités  News"
 https://www.blogger.com/feeds/7797431205725571762/posts/default "Geo tips &amp; tricks"
 https://www.esciencecenter.nl/feed "eScience Center"
 https://carpentries.org/feed.xml "The Carpentries"
@@ -318,4 +311,3 @@ https://blog.globalforestwatch.org/feed "news/climate_change/Global Forest Watch
 https://aeon.co/feed.rss "news/Aeon"
 https://orcid.org/blog/feed "news/ORCID blogs"
 
-https://youtu.be/aolI_Rz0ZqY?si=JAe33UYdrYAawJZD "git"
