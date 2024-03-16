@@ -106,6 +106,7 @@ alias radio_metal_poland="echo 'Reduce volume!'; cdown 4; mpv --cache=auto http:
 alias radio_metal_usa="echo 'Reduce volume!'; cdown 4; mpv --cache=auto https://ice5.somafm.com/metal-128-aac"
 alias radio_radionica="echo 'Reduce volume!'; cdown 4; mpv --cache=auto http://shoutcast.rtvc.gov.co:8010/;"
 alias radio_synthwave="echo 'Reduce volume!'; cdown 4; mpv --cache=auto http://188.40.97.185:8179/stream"
+alias radio_techno_germany="echo 'Reduce volume!'; cdown 4; mpv --cache=auto http://sunsl.streamabc.net/sunsl-techno-mp3-192-4912904?sABC=65s434qn%230%236080533n48sp2nrq0o4389q6o67o3qps%23fgernz.fhafuvar-yvir.qr&aw_0_1st.playerid=stream.sunshine-live.de&amsparams=playerid:stream.sunshine-live.de;skey:1710503130"
 alias radio_ud="echo 'Reduce volume!'; cdown 4; mpv --cache=auto http://200.69.103.69:8000/laud"
 
 alias rss="newsboat"
