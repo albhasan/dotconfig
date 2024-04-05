@@ -122,8 +122,9 @@ fi
 # Deactivate Caps Lock. 
 # NOTE: It doesn't work in Fedora 37: 
 # WARNING: Running setxkbmap against an XWayland server
-setxkbmap -option ctrl:ctrl_modifier
-setxkbmap -option caps:none
+#setxkbmap -option ctrl:ctrl_modifier
+#setxkbmap -option caps:none
+setxkbmap -option caps:escape
 
 # Set bash to use vim bindings.
 export VISUAL=vim
