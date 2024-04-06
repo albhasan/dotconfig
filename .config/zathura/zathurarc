@@ -3,6 +3,7 @@ set selection-clipboard clipboard
 set statusbar-h-padding 0
 set statusbar-v-padding 0
 set page-padding 1
+# set sandbox strict # Secure, but it disables writing, printing, and bookmarks
 
 map b adjust_window best-fit
 map d scroll half-down
