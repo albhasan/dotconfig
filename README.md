@@ -59,6 +59,8 @@ sudo apt-get -y install \
     tmux \
     tree \
     stow \
+    wl-clipboard \
+    xclip \
     x11-xkb-utils
 
 mkdir -p ~/Documents/github
