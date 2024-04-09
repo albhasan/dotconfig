@@ -51,9 +51,16 @@ sudo apt-get -y install \
     figlet \
     flatpak \
     fortune \
+    gfortran \
     git \
     keepassxc \
+    libfontconfig1-dev \
+    libfribidi-dev \
     libfuse-dev \
+    libgdal-dev \
+    libharfbuzz-dev \
+    libssl-dev \
+    libudunits2-dev \
     lolcat \
     #neovim \
     tmux \
