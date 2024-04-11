@@ -45,7 +45,10 @@ Autonomy" in i[youtube](https://youtu.be/y6XCebnB9gs?si=A-jaTzAPCM_Ta_e2)
 
 sudo apt-get -y install \
     alsa-utils \
+    black \
     build-essential \
+    cargo \
+    composer \
     cowsay \
     exuberant-ctags \
     figlet \
@@ -53,21 +56,33 @@ sudo apt-get -y install \
     fortune \
     gfortran \
     git \
+    golang \
+    isort \
     keepassxc \
     libfontconfig1-dev \
     libfribidi-dev \
     libfuse-dev \
     libgdal-dev \
     libharfbuzz-dev \
+    libproj-dev \
     libssl-dev \
     libudunits2-dev \
     lolcat \
-    #neovim \
+    luarocks \
+    #neovim
+    nodejs \
+    npm \
+    php-cgi \
+    python3-neovim \
+    python3-pip \
+    python3-virtualenv \
+    ripgrep \
+    rubocop \
     tmux \
     tree \
     stow \
-    wl-clipboard \
-    xclip \
+    #wl-clipboard \ # wayland
+    xclip \         # xorg
     x11-xkb-utils
 
 mkdir -p ~/Documents/github
