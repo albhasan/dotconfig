@@ -57,6 +57,7 @@ alias      scp="echo 'STOP. Use instead rsync'"
 # https://youtu.be/peyx6LXk2rk
 
 alias anime="~/Documents/github/ani-cli/./ani-cli"
+alias bat=batcat
 alias calendar="calcurse"
 alias explorer="nemo " # Linux Mint
 alias files="ranger" #alias files="nemo "
@@ -72,6 +73,8 @@ alias translate="trans"
 alias wikipedia="wikipedia2text -s" # NOTE: It also requires w3m!
 
 alias docker="podman"
+
+alias fd="/usr/bin/fdfind"
 
 alias gato="oneko"
 alias perro="oneko -dog"
@@ -102,8 +105,10 @@ alias radio_horrorsynth="echo 'Reduce volume!'; cdown 4; mpv --cache=auto https:
 alias radio_metal_denmark="echo 'Reduce volume!'; cdown 4; mpv --cache=auto http://46.4.184.212:8000/;"
 alias radio_metal_france="echo 'Reduce volume!'; cdown 4; mpv --cache=auto http://hd.lagrosseradio.info/lagrosseradio-metal-192.mp3"
 alias radio_metal_germany="echo 'Reduce volume!'; cdown 4; mpv --cache=auto http://s8-webradio.rockantenne.de/heavy-metal"
+alias radio_metal_norway="echo 'Reduce volums!'; cdown 4; mpv -cache=auto http://s39.myradiostream.com:11590/;"
 alias radio_metal_poland="echo 'Reduce volume!'; cdown 4; mpv --cache=auto http://stream.open.fm/108"
 alias radio_metal_usa="echo 'Reduce volume!'; cdown 4; mpv --cache=auto https://ice5.somafm.com/metal-128-aac"
+alias radio_opera_romania="echo 'Reduce volume!'; cdown 4; mpv --cache=auto http://37.251.146.169:7500/stream"
 alias radio_radionica="echo 'Reduce volume!'; cdown 4; mpv --cache=auto http://shoutcast.rtvc.gov.co:8010/;"
 alias radio_synthwave="echo 'Reduce volume!'; cdown 4; mpv --cache=auto http://188.40.97.185:8179/stream"
 alias radio_techno_germany="echo 'Reduce volume!'; cdown 4; mpv --cache=auto http://sunsl.streamabc.net/sunsl-techno-mp3-192-4912904?sABC=65s434qn%230%236080533n48sp2nrq0o4389q6o67o3qps%23fgernz.fhafuvar-yvir.qr&aw_0_1st.playerid=stream.sunshine-live.de&amsparams=playerid:stream.sunshine-live.de;skey:1710503130"
