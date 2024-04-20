@@ -4,6 +4,9 @@ http://phdcomics.com/gradfeed.php           "~Comics | PhD comics" "comics"
 https://www.smbc-comics.com/comic/rss       "~Comics | Saturday morning" "comics"
 https://www.xkcd.com/rss.xml                "~Comics | xkdc" "comics"
 
+https://www.youtube.com/feeds/videos.xml?channel_id=UCPb7xe-MQ0KiJpaKBWFZtTA "~YT statistics | Very Normal"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCtYLUTtgS3k1Fg4y5tAhLbw "~YT statistics | StatQuest"
+
 https://www.iaaa.es/feed                                     "~Education | Advanced Information Systems Lab" "edu/Advanced Information Systems Laboratory"
 https://info.bc3research.org/feed/                           "~Education | Basque Centre for Climate Change" "edu/Basque Centre for Climate Change"
 https://eesa.lbl.gov/feed                                    "~Education | Berkeley Lab" "edu/BerkeleyLab-EESA"
@@ -68,7 +71,6 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCbOX--VOebPe-MMRkatFRxw "~Y
 https://www.youtube.com/feeds/videos.xml?channel_id=UCTZXht1RTL2Duc3eU8MYGzQ "~YT datascience | Bruno Rodrigues"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCNMawpMow-lW5d2svGhOEbw "~YT datascience | Data Science Simplified"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCTTBgWyJl2HrrhQOOc710kA "~YT datascience | Julia Silge"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCtYLUTtgS3k1Fg4y5tAhLbw "~YT datascience | StatQuest"
 
 https://www.youtube.com/feeds/videos.xml?channel_id=UClnDI2sdehVm1zm_LmUHsjQ "~YT history | Biographics"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCCODtTcd5M1JavPCOr_Uydg "~YT history | Extra Credits"
@@ -180,6 +182,9 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCEIwxahdLz7bap-VDs9h35A "~Y
 https://www.youtube.com/feeds/videos.xml?channel_id=UCHnyfMqiRRG1u-2MsSQLbXA "~YT physics | Veritasium"
 https://www.youtube.com/feeds/videos.xml?channel_id=UC6IxnFzHofFJ5X2PycSMsww "~YT physics | xkcd_whatif"
 
+https://www.youtube.com/feeds/videos.xml?channel_id=UCdJ9oJ2GUF8Vmb-G63ldGWg "~YT chemistry | reactions"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCtESv1e7ntJaLJYKIO1FoYw "~YT chemistry | Periodic Videos"
+
 https://www.youtube.com/feeds/videos.xml?channel_id=UCaSCt8s_4nfkRglWCvNSDrg "~YT | programming CodeAesthetic"
 https://www.youtube.com/feeds/videos.xml?channel_id=UC8butISFwT-Wl7EV0hUK0BQ "~YT | programming freeCodeCamporg"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCw0-LetPQsqO70O-8QN8MVA "~YT | programming Invide - Developer Community"
@@ -220,7 +225,6 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCP7WmQ_U4GB3K51Od9QvM0w "~Y
 https://www.youtube.com/feeds/videos.xml?channel_id=UC9x0AN7BWHpCDHSm9NiJFJQ "~YT networks | NetworkChuck"
 
 https://www.youtube.com/feeds/videos.xml?channel_id=UCt3Sn1Fl7cf5RUP4TDHPe4g "youtube/Observatório do Código Florestal"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCPb7xe-MQ0KiJpaKBWFZtTA "youtube/statistics/Very Normal"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCJG8N5P1RFX29JTKt_6R21A "youtube/math/Ergodicity TV"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCbdcpQ5uPPymv7Ea0nnFfOw "youtube/chess/Magnus Carlsen"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCL5YbN5WLFD8dLIegT5QAbA "youtube/chess/agadmator's Chess Channel"
