@@ -45,15 +45,19 @@ Autonomy" in i[youtube](https://youtu.be/y6XCebnB9gs?si=A-jaTzAPCM_Ta_e2)
 
 sudo apt-get -y install \
     alsa-utils \
+    bat \
     black \
     build-essential \
     cargo \
     composer \
     cowsay \
     exuberant-ctags \
+    fd-find \
     figlet \
     flatpak \
     fortune \
+    thefuck \
+    fzf \
     gfortran \
     git \
     golang \
