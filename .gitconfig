@@ -2,4 +2,6 @@
 	email = albhasan@gmail.com
 	name = albhasan
 [credential]
-	helper = cache
+    helper = cache
+[init]
+    defaultBranch = main
