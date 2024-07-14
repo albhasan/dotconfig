@@ -34,4 +34,4 @@ highlight article ":.*\\(image\\)$" blue default
 highlight article ":.*\\(embedded flash\\)$" magenta default
 
 browser "firefox --new-tab %u"
-
+macro v set browser "setsid -f mpv" ; open-in-browser ;
