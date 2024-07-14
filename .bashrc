@@ -164,3 +164,11 @@ source ~/.git-prompt.sh
 #PATH=$PATH:/usr/sbin:/sbin
 #export PATH
 
+
+# Created by `pipx` on 2024-06-08 14:36:32
+export PATH="$PATH:/home/alber/.local/bin"
+if [ -f "/home/alber/.config/fabric/fabric-bootstrap.inc" ]; then . "/home/alber/.config/fabric/fabric-bootstrap.inc"; fi
+
+# Add rust (cargo) executables
+export PATH="$PATH:/home/alber/.cargo/bin"
+
