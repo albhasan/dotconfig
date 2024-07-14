@@ -1,5 +1,7 @@
+# DEPRECATION NOTE: yml is deprecated. Alacritty now uses toml.
 env:
-  TERM: alacritty
+  #TERM: alacritty
+  TERM: xterm-256color
 
 window:
   padding:
@@ -7,6 +9,7 @@ window:
     y: 5
   decorations: none
   opacity: 0.9
+  blur: true
 
 scrolling:
   history: 10000
@@ -28,4 +31,3 @@ font:
   size: 10.0
 
 live_config_reload: true
-
