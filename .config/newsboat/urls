@@ -4,6 +4,15 @@ http://phdcomics.com/gradfeed.php           "~Comics | PhD comics" "comics"
 https://www.smbc-comics.com/comic/rss       "~Comics | Saturday morning" "comics"
 https://www.xkcd.com/rss.xml                "~Comics | xkdc" "comics"
 
+https://www.youtube.com/feeds/videos.xml?channel_id=UCTU0ZJQ8Lqslww0R9Xk0sJg "~YT computers | BleepingComputer"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCo71RUe6DX4w-Vd47rFLXPg "~YT computers | typecraft"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC9-y-6csu5WGm29I7JiwpnA "~YT computers | Computerphile"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC3s0BtrBJpwNDaflRSoiieQ "~YT computers | Hak5"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC6biysICWOJ-C3P4Tyeggzg "~YT computers | Low Level Learning"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCoj4eQh_dZR37lL78ymC6XA "~YT computers | PapersWeLove"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCHvDhwNuq-h2hZQRR6BwbLQ "~YT computers | Tech with Nichola"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCGc7D1dcbCWHzh3SfDhSFhw "~YT computers | Undine Almani"
+
 https://www.youtube.com/feeds/videos.xml?channel_id=UCPb7xe-MQ0KiJpaKBWFZtTA "~YT statistics | Very Normal"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCtYLUTtgS3k1Fg4y5tAhLbw "~YT statistics | StatQuest"
 
@@ -15,6 +24,7 @@ https://www.fao.org/webcast/rss/en/                          "~Education | FAO w
 https://geoai.geog.buffalo.edu/posts/feed/                   "~Education | GeoAI Lab" "edu/GeoAI"
 https://geosocial.zgis.at/feed                               "~Education | GeoSocial Analytics Lab" "edu/Geosocial Analytics Lab"
 https://geods.geography.wisc.edu/archives/category/news/feed "~Education | GeoSpatial Data Science Lab" "edu/GeoDS Lab"
+https://globalcarbonatlas.org/feed/                          "~Education | Global Carbon Atlas"
 https://heigit.org/rss                                       "~Education | Heidelberg Institute for Geoinformation Technology" "edu/Heidelberg Institute for Geoinformation Technology"
 https://www.iarai.ac.at/feed                                 "~Education | Institute of Advanced Research in AI" "edu/IARAI"
 http://www.uni-muenster.de/Geoinformatics/en/news/index.rss  "~Education | IFGI news" "edu/ifgi/IFGI news"
@@ -27,6 +37,7 @@ https://society-rse.org/feed                                 "~Education | Socie
 https://www.treeslab.org/1/feed                              "~Education | TREESLab" "edu/inpe/TREES Research Lab - NEWS"
 https://www.uv.es/fatwirepub/Satellite?pagename=UV/Page/TPGNovedadesSindicadas&c=Page&cs.contenttype=application/xml;charset=UTF-8&pageId=1285860188160&site=345&locale=en_GB&tipo=D "~Education | Earth Physics and Thermodynamics Department" "edu/Earth Physics and Thermodynamics Department"
 https://52north.org/feed/                                    "~Education | 52 North" "edu/ifgi/52°North Initiative for Geospatial Open Source Software GmbH"
+https://www.permaculture.org/news/feed/                      "~Education | Permaculture institute"
 
 https://academicpositions.co.uk/rss/?&index=jobs:en:6                                               "~Jobs | Academic positions" "jobs"
 https://www.dkrz.de/about-en/vacancies/vacancies/RSS                                                "~Jobs | DKRZ" "jobs"
@@ -59,14 +70,6 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCx0L2ZdYfiq-tsAXb8IXpQg "~Y
 https://www.youtube.com/feeds/videos.xml?channel_id=UCJkMlOu7faDgqh4PfzbpLdg "~YT art | Nerdwriter1"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCw56Qjdw497hQIXo1vzxjtQ "~YT art | RijksTube"
 
-https://www.youtube.com/feeds/videos.xml?channel_id=UCTU0ZJQ8Lqslww0R9Xk0sJg "~YT computers | BleepingComputer"
-https://www.youtube.com/feeds/videos.xml?channel_id=UC9-y-6csu5WGm29I7JiwpnA "~YT computers | Computerphile"
-https://www.youtube.com/feeds/videos.xml?channel_id=UC3s0BtrBJpwNDaflRSoiieQ "~YT computers | Hak5"
-https://www.youtube.com/feeds/videos.xml?channel_id=UC6biysICWOJ-C3P4Tyeggzg "~YT computers | Low Level Learning"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCoj4eQh_dZR37lL78ymC6XA "~YT computers | PapersWeLove"
-https://www.youtube.com/feeds/videos.xml?channel_id=UC3xfbCMLCw1Hh4dWop3XtHg "~YT computers | RStudio"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCGc7D1dcbCWHzh3SfDhSFhw "~YT computers | Undine Almani"
-
 https://www.youtube.com/feeds/videos.xml?channel_id=UCbOX--VOebPe-MMRkatFRxw "~YT datascience | Cassie kozyrkov" "video" "stats" "ml"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCTZXht1RTL2Duc3eU8MYGzQ "~YT datascience | Bruno Rodrigues"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCNMawpMow-lW5d2svGhOEbw "~YT datascience | Data Science Simplified"
@@ -82,6 +85,7 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UC9Lp_AA5M2cMGrlvnnIns-g "~Y
 https://www.youtube.com/feeds/videos.xml?channel_id=UCsaEBhRsI6tmmz12fkSEYdw "~YT Earth | Hot Mess"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCeiYXex_fwgYDonaTcSIk6w "~YT Earth | MinuteEarth"
 https://www.youtube.com/feeds/videos.xml?channel_id=UC_aP7p621ATY_yAa8jMqUVA "~YT Earth | NASA Video"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCRRr_xrOm66qaigIbwFLvbQ "~YT Earth | Simon Clark"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCK2Dxvy9H1NojirvaxnEnqw "~YT Earth | Terra Mater"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCeXH8GZyV3sVqAr45AvupOA "~YT Earth | USGS"
 https://www.youtube.com/feeds/videos.xml?channel_id=UC575w7dIjLvGCnz4M1kgSsQ "~YT Earth | WorldResourcesInst"
@@ -222,18 +226,17 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCTVSqD_elHZtuRv0PKTLOEw "~Y
 
 https://www.youtube.com/feeds/videos.xml?channel_id=UCHN1aYRP473xX6Z13H_mxMQ "~YT networks | Chris Greer"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCP7WmQ_U4GB3K51Od9QvM0w "~YT networks | David Bombal"
-https://www.youtube.com/feeds/videos.xml?channel_id=UC9x0AN7BWHpCDHSm9NiJFJQ "~YT networks | NetworkChuck"
 
 https://www.youtube.com/feeds/videos.xml?channel_id=UCt3Sn1Fl7cf5RUP4TDHPe4g "youtube/Observatório do Código Florestal"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCJG8N5P1RFX29JTKt_6R21A "youtube/math/Ergodicity TV"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCbdcpQ5uPPymv7Ea0nnFfOw "youtube/chess/Magnus Carlsen"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCL5YbN5WLFD8dLIegT5QAbA "youtube/chess/agadmator's Chess Channel"
 https://www.youtube.com/feeds/videos.xml?channel_id=UC_2Lyc9VUX-jC-E1prJitHw "youtube/FOSS4G"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCB01WjameYMvL7-XfI8vRIA "youtube/RUS Copernicus Training"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCDYT9mM3L_ByrPYMyl0MGGg "youtube/BBC Ideas"
 
 
 
+https://www.youtube.com/feeds/videos.xml?channel_id=UCL5YbN5WLFD8dLIegT5QAbA "~YT chess | agadmator's Chess Channel"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCbdcpQ5uPPymv7Ea0nnFfOw "~YT chess | Magnus Carlsen"
 
 
 https://feeds.feedburner.com/wcrp-academy/yvkomgp2kk5 "~Tutorials | World Climate Research Program" "tutorials"
