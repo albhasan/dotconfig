@@ -1,0 +1,36 @@
+live_config_reload = true
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+size = 10.0
+
+[font.bold]
+family = "JetBrainsMono NL"
+style = "Bold"
+
+[font.bold_italic]
+family = "JetBrainsMono NL"
+style = "BoldItalic"
+
+[font.italic]
+family = "JetBrainsMono NL"
+style = "MediumItalic"
+
+[font.normal]
+family = "JetBrainsMono NL"
+style = "Regular"
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[window]
+blur = true
+decorations = "none"
+opacity = 0.9
+
+[window.padding]
+x = 5
+y = 5
