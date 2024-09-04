@@ -7,11 +7,9 @@ https://www.xkcd.com/rss.xml                "~Comics | xkdc" "comics"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCTU0ZJQ8Lqslww0R9Xk0sJg "~YT computers | BleepingComputer"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCo71RUe6DX4w-Vd47rFLXPg "~YT computers | typecraft"
 https://www.youtube.com/feeds/videos.xml?channel_id=UC9-y-6csu5WGm29I7JiwpnA "~YT computers | Computerphile"
-https://www.youtube.com/feeds/videos.xml?channel_id=UC3s0BtrBJpwNDaflRSoiieQ "~YT computers | Hak5"
 https://www.youtube.com/feeds/videos.xml?channel_id=UC6biysICWOJ-C3P4Tyeggzg "~YT computers | Low Level Learning"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCoj4eQh_dZR37lL78ymC6XA "~YT computers | PapersWeLove"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCHvDhwNuq-h2hZQRR6BwbLQ "~YT computers | Tech with Nichola"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCGc7D1dcbCWHzh3SfDhSFhw "~YT computers | Undine Almani"
 
 https://www.youtube.com/feeds/videos.xml?channel_id=UCPb7xe-MQ0KiJpaKBWFZtTA "~YT statistics | Very Normal"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCtYLUTtgS3k1Fg4y5tAhLbw "~YT statistics | StatQuest"
@@ -92,6 +90,7 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UC575w7dIjLvGCnz4M1kgSsQ "~Y
 
 https://www.youtube.com/feeds/videos.xml?channel_id=UCdp4_l1vPmpN-gDbUwhaRUQ "~YT engineering | Branch Education"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCGc8ZVCsrR3dAuhvUbkbToQ "~YT engineering | City Beautiful"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCdgUN8rX3SEb9L7FDub3I6A "~YT engineering | Design Theory"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCUQo7nzH1sXVpzL92VesANw "~YT engineering | DIY Perks"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCJ0-OtVpF0wOKEqT2Z1HEtA "~YT engineering | ElectroBOOM"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCzgviV8WkULNua94BJDqI7g "~YT engineering | Engineering Models"
@@ -327,3 +326,5 @@ https://earthobservatory.nasa.gov/feeds/earth-observatory.rss "news/climate_chan
 https://blog.globalforestwatch.org/feed "news/climate_change/Global Forest Watch Blog"
 https://aeon.co/feed.rss "news/Aeon"
 https://orcid.org/blog/feed "news/ORCID blogs"
+
+https://www.youtube.com/feeds/videos.xml?channel_id=UCGc7D1dcbCWHzh3SfDhSFhw "~YT computers | Undine Almani"
