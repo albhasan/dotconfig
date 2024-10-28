@@ -6,12 +6,12 @@ set page-padding 1
 # set sandbox strict # Secure, but it disables writing, printing, and bookmarks
 
 map b adjust_window best-fit
-map d scroll half-down
+# map d scroll half-down
 map D toggle_page_mode
-map i recolor
-map K zoom in
-map J zoom out
+#map i recolor
+# map K zoom in
+# map J zoom out
 map p print
 map r reload
 map R rotate
-map u scroll half-up
+# map u scroll half-up
