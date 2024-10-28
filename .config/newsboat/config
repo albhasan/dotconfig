@@ -33,5 +33,7 @@ highlight article ":.*\\(link\\)$" cyan default
 highlight article ":.*\\(image\\)$" blue default
 highlight article ":.*\\(embedded flash\\)$" magenta default
 
+datetime-format "%F"
+
 browser "firefox --new-tab %u"
 macro v set browser "setsid -f mpv" ; open-in-browser ;
