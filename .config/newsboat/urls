@@ -1,9 +1,20 @@
+https://www.youtube.com/feeds/videos.xml?channel_id=UCyySB9ZzNi8aBGYqcxSrauQ "~YT tutorials | Open Microscopy Environment"
+
+https://ffrf.org/feed                                         "~Skepticism | Freedom from religon foundation"
+https://www.skeptic.com/rss                                   "~Skepticism | Skeptic magazine"
+https://centerforinquiry.org/feed                             "~Skepticism | Center for Inquiry"
+
+https://www.lasillavacia.com/feed                             "~News | La Silla Vacia"
+https://www.theguardian.com/international/rss                 "~News | The Guardian"
+
 https://www.ipcc.ch/rss                                       "~Climate |IPCC"
 https://earthobservatory.nasa.gov/feeds/earth-observatory.rss "~Climate | NASA Earth Observatory"
+https://gaiaamazonas.org/feed                                 "~Institutes | Fundacion Gaia Amazonas"
+
 
 http://feed.dilbert.com/dilbert/daily_strip                  "~Comics | Dilbert" "comics"
 http://existentialcomics.com/rss.xml                         "~Comics | Existential comics" "comics"
-http://phdcomics.com/gradfeed.php                            "~Comics | PhD comics" "comics"
+https://phdcomics.com/gradfeed.php                           "~Comics | PhD comics" "comics"
 https://www.smbc-comics.com/comic/rss                        "~Comics | Saturday morning" "comics"
 https://www.xkcd.com/rss.xml                                 "~Comics | xkdc" "comics"
 
@@ -31,7 +42,7 @@ https://climaesociedade.org/feed                             "~Education | Insti
 https://ml4earth.de/feed                                     "~Education | ML4Earth"
 https://climate.nasa.gov/news/rss.xml                        "~Education | NASA climate" "edu/Global Climate Change - Vital Signs of the Planet - News RSS Feed"
 http://openeo.org/feed.xml                                   "~Education | OpenEO" "edu/ifgi/openEO"
-https://open-research-europe.ec.europa.eu/published/rss      "~Education | Open Research Europe"
+#https://open-research-europe.ec.europa.eu/published/rss      "~Education | Open Research Europe"
 https://www.redlatif.org/feed/                               "~Education | RedLatTIF"
 https://ropensci.org/tags/newsletter/index.xml               "~Education | rOpenSci"
 https://rslab.disi.unitn.it/feed                             "~Education | RSLab UniTrento" "edu/RSLab UniTrento"
@@ -43,31 +54,17 @@ https://www.usgs.gov/news/technical-announcement/feed        "~Education | USGS"
 https://www.woodwellclimate.org/feed                         "~Education | Woodwell Climate"
 https://feeds.feedburner.com/wcrp-academy/yvkomgp2kk5        "~Education | World Climate Research Program" "tutorials"
 
-https://www.blogger.com/feeds/7797431205725571762/posts/default "~GIS | Geo tips and tricks"
 https://www.raisg.org/en/rss                                    "~GIS | Amazon Network of Georeferenced socio-environmental information"
-
-https://academicpositions.co.uk/rss/?&index=jobs:en:6                                               "~Jobs | Academic positions" "jobs"
-https://www.dkrz.de/about-en/vacancies/vacancies/RSS                                                "~Jobs | DKRZ" "jobs"
-https://www.dlr.de/dlr/jobs/en//contentxxl/services/export/getcontent.aspx?mid=1003&mdefid=71&eid=7 "~Jobs | DLR"
-https://www.egu.eu/jobs/rss                                                                         "~Jobs | European Geosciences Union"
-https://www.fz-juelich.de/SiteGlobals/Functions/RSSFeed/EN/RSSStellenangebotefeed/RSSStellenangebotefeed.xml "~Jobs | Juelich" "jobs"
-https://www.iarai.ac.at/openings/feed/                                                              "~Jobs | Iarai" "jobs"
-https://www.mpg.de/feeds/jobs.rss                                                                   "~Jobs | Max Planck"
-https://opengeohub.org/category/jobs/feed                                                           "~Jobs | OpenGeoHub" "jobs"
-https://www.r-users.com/feed/?post_type=job_listing                                                 "~Jobs | R-users" "jobs"
-https://society-rse.org/careers/vacancies/feed                                                      "~Jobs | Research Software Engineering"
-https://tub.stellenticket.de/en/rss/worktype/119%2C121%2C120%2C122%2C197%2C216%2C238%2C201%2C203%2C205/fieldofst/90%2C91%2C187%2C98%2C103%2C102/jobclassification/163%2C141%2C213/ "~Jobs | Stellenticket" "jobs"
-https://jobs.nottingham.ac.uk/RSS/rss.aspx                                                           "~Jobs | U Nottingham"
-https://www.webhare-test.utsp.utwente.nl/en/organization/careers/!/rss                               "~Jobs | U Twente" "jobs"
-https://recruitingapp-5128.de.umantis.com/RssFeed/71/rss.xml                                         "~Jobs | UFZ"
-http://unu.edu/about/hr/feed                                                                         "~Jobs | UN University" "jobs"
+https://www.blogger.com/feeds/7797431205725571762/posts/default "~GIS | Geo tips and tricks"
+https://grass.osgeo.org/index.xml                               "~GIS | GRASS GIS"
+https://openforis.org/feed                                      "~GIS | Open Foris"
 
 http://rss.dw-world.de/xml/Dkpodcast_videothema_de              "~Languages | Deutsch lernen"
 http://rss.dw.com/xml/DKpodcast_jojo_de                         "~Languages | Jojo sucht das Glück"
 
 http://feeds.feedburner.com/pm-podcast                          "~Project Management | PMPodcast" "The Project Management Podcast"
 
-https://feeds.feedburner.com/sciencealert-latestnews?format=xml "~Papers     | ScienceAlert"
+#https://feeds.feedburner.com/sciencealert-latestnews?format=xml "~Papers     | ScienceAlert"
 http://rss.sciencedirect.com/publication/science/00344257       "~Papers ENV | Remote Sensing of Environment"
 https://iopscience.iop.org/journal/rss/1748-9326                "~Papers ENV | Environmental Research Letters"
 https://feeds.feedburner.com/ProceedingsOfTheNationalAcademyOfSciencesAgriculturalSciences?format=xml "~Papers ENV | National Academy of Sciences Agricultural Sciences"
@@ -114,6 +111,22 @@ https://agstack.org/feed                                        "~Programming | 
 https://orcid.org/blog/feed "~Other | ORCID blogs"
 
 
+https://academicpositions.co.uk/rss/?&index=jobs:en:6                                               "~Jobs | Academic positions" "jobs"
+https://www.dkrz.de/about-en/vacancies/vacancies/RSS                                                "~Jobs | DKRZ" "jobs"
+https://www.dlr.de/dlr/jobs/en//contentxxl/services/export/getcontent.aspx?mid=1003&mdefid=71&eid=7 "~Jobs | DLR"
+https://www.egu.eu/jobs/rss                                                                         "~Jobs | European Geosciences Union"
+https://www.fz-juelich.de/SiteGlobals/Functions/RSSFeed/EN/RSSStellenangebotefeed/RSSStellenangebotefeed.xml "~Jobs | Juelich" "jobs"
+https://www.iarai.ac.at/openings/feed/                                                              "~Jobs | Iarai" "jobs"
+https://www.mpg.de/feeds/jobs.rss                                                                   "~Jobs | Max Planck"
+https://opengeohub.org/category/jobs/feed                                                           "~Jobs | OpenGeoHub" "jobs"
+https://www.r-users.com/feed/?post_type=job_listing                                                 "~Jobs | R-users" "jobs"
+https://society-rse.org/careers/vacancies/feed                                                      "~Jobs | Research Software Engineering"
+https://tub.stellenticket.de/en/rss/worktype/119%2C121%2C120%2C122%2C197%2C216%2C238%2C201%2C203%2C205/fieldofst/90%2C91%2C187%2C98%2C103%2C102/jobclassification/163%2C141%2C213/ "~Jobs | Stellenticket" "jobs"
+https://jobs.nottingham.ac.uk/RSS/rss.aspx                                                           "~Jobs | U Nottingham"
+https://www.webhare-test.utsp.utwente.nl/en/organization/careers/!/rss                               "~Jobs | U Twente" "jobs"
+https://recruitingapp-5128.de.umantis.com/RssFeed/71/rss.xml                                         "~Jobs | UFZ"
+http://unu.edu/about/hr/feed                                                                         "~Jobs | UN University" "jobs"
+
 
 
 
@@ -126,7 +139,7 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCx0L2ZdYfiq-tsAXb8IXpQg "~Y
 https://www.youtube.com/feeds/videos.xml?channel_id=UCJkMlOu7faDgqh4PfzbpLdg "~YT art | Nerdwriter1"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCw56Qjdw497hQIXo1vzxjtQ "~YT art | RijksTube"
 
-https://www.youtube.com/feeds/videos.xml?channel_id=UCdJ9oJ2GUF8Vmb-G63ldGWg "~YT chemistry | reactions"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCdJ9oJ2GUF8Vmb-G63ldGWg "~YT chemistry | Reactions"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCtESv1e7ntJaLJYKIO1FoYw "~YT chemistry | Periodic Videos"
 
 https://www.youtube.com/feeds/videos.xml?channel_id=UCTU0ZJQ8Lqslww0R9Xk0sJg "~YT computers | BleepingComputer"
@@ -135,6 +148,7 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UC9-y-6csu5WGm29I7JiwpnA "~Y
 #https://www.youtube.com/feeds/videos.xml?channel_id=UC6biysICWOJ-C3P4Tyeggzg "~YT computers | Low Level Learning"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCoj4eQh_dZR37lL78ymC6XA "~YT computers | PapersWeLove"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCHvDhwNuq-h2hZQRR6BwbLQ "~YT computers | Tech with Nichola"
+https://www.youtube.com/feeds/videos.xmlUC1LpsuAUaKoMzzJSEt5WImw             "~YT computers | Asianometry"
 
 https://www.youtube.com/feeds/videos.xml?channel_id=UCL5YbN5WLFD8dLIegT5QAbA "~YT chess | agadmator's Chess Channel"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCbdcpQ5uPPymv7Ea0nnFfOw "~YT chess | Magnus Carlsen"
@@ -202,7 +216,7 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCI4QZvveQSWeMdF36ZLEmBw "~Y
 https://www.youtube.com/feeds/videos.xml?channel_id=UC1b93o_l58ZaJcDBiuJfIKQ "~YT institutes | wwumuenster"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCIJ7QPejAmnQZJT33Qxg2JA "~YT institutes | Yale Center for Research Computing [YCRC]"
 
-https://www.youtube.com/feeds/videos.xml?channel_id=UCmGSJVG3mCRXVOP4yZrU1Dw "~YT journalism | Johnny Harris"
+#https://www.youtube.com/feeds/videos.xml?channel_id=UCmGSJVG3mCRXVOP4yZrU1Dw "~YT journalism | Johnny Harris"
 https://www.youtube.com/feeds/videos.xml?channel_id=UChaCUP5MpLcCFTg6J5XRmRA "~YT journalism | Search Party"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCLXo7UDZvByw2ixzpQCufnA "~YT journalism | Vox"
 
@@ -216,7 +230,6 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCOWcZ6Wicl-1N34H0zZe38w "~Y
 https://www.youtube.com/feeds/videos.xml?channel_id=UC5UAwBUum7CPN5buc-_N1Fw "~YT linux | Linux Experiment"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCd4XwUn2Lure2NHHjukoCwA "~YT linux | Linux For Everyone"
 https://www.youtube.com/feeds/videos.xml?channel_id=UC7YOGHUfC1Tb6E4pudI9STA "~YT linux | Mental Outlaw"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCpZ5qUqpW4hW4zdfuBxMSJA "~YT linux | Mental Floss"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCMiyV_Ib77XLpzHPQH_q0qQ "~YT linux | Veronica Explains"
 
 https://www.youtube.com/feeds/videos.xml?channel_id=UCcIXc5mJsHVYTZR1maL5l9w "~YT machine learning | DeepLearningAI"
@@ -266,14 +279,14 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UC1VLQPn9cYSqx8plbk9RxxQ "~Y
 https://www.youtube.com/feeds/videos.xml?channel_id=UCHnyfMqiRRG1u-2MsSQLbXA "~YT physics | Veritasium"
 https://www.youtube.com/feeds/videos.xml?channel_id=UC6IxnFzHofFJ5X2PycSMsww "~YT physics | xkcd_whatif"
 
-https://www.youtube.com/feeds/videos.xml?channel_id=UCaSCt8s_4nfkRglWCvNSDrg "~YT | programming CodeAesthetic"
-https://www.youtube.com/feeds/videos.xml?channel_id=UC8butISFwT-Wl7EV0hUK0BQ "~YT | programming freeCodeCamporg"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCw0-LetPQsqO70O-8QN8MVA "~YT | programming Invide - Developer Community"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCaiL2GDNpLYH6Wokkk1VNcg "~YT | programming mCoding"
-https://www.youtube.com/feeds/videos.xml?channel_id=UC_R5smHVXRYGhZYDJsnXTwg "~YT | programming R Consortium"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCI0vQvr9aFn27yR6Ej6n5UA "~YT | programming RealPython"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCCaChdLMTYMxyawR_Qf-kYA "~YT | programming R4DS Online Learning Community"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCd3dNckv1Za2coSaHGHl5aA "~YT | programming TJ DeVries"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCaSCt8s_4nfkRglWCvNSDrg "~YT programming | CodeAesthetic"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC8butISFwT-Wl7EV0hUK0BQ "~YT programming | freeCodeCamporg"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCw0-LetPQsqO70O-8QN8MVA "~YT programming | Invide - Developer Community"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCaiL2GDNpLYH6Wokkk1VNcg "~YT programming | mCoding"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC_R5smHVXRYGhZYDJsnXTwg "~YT programming | R Consortium"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCI0vQvr9aFn27yR6Ej6n5UA "~YT programming | RealPython"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCCaChdLMTYMxyawR_Qf-kYA "~YT programming | R4DS Online Learning Community"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCd3dNckv1Za2coSaHGHl5aA "~YT programming | TJ DeVries"
 
 https://www.youtube.com/feeds/videos.xml?channel_id=UCX6b17PVsYBQ0ip5gyeme-Q "~YT science | CrashCourse"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCwRH985XgMYXQ6NxXDo8npw "~YT science | Dinge Erklärt – Kurzgesagt"
