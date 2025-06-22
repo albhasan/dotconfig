@@ -77,7 +77,17 @@ set tabstop=4
 set wrap lbr nolist
 set relativenumber
 set number
+set clipboard=unnamedplus
+set ignorecase
+set smartcase
 
+colorscheme torte
+"colorscheme koehler
+"colorscheme ron
+"colorscheme evening
+"colorscheme desert
+"colorscheme darkblue
+"colorscheme blue
 "colorscheme murphy
 "colorscheme onedark
 
