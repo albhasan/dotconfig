@@ -5,19 +5,19 @@
 # 12 useful bash aliases that can make you more productive in linux
 # https://www.lostsaloon.com/technology/12-useful-bash-aliases-that-you-can-make-you-more-productive-in-linux/
 
-alias cd..="cd .."                # Avoid typo.
-alias cp='cp -iv'                 # Safe copy.
-alias la='ls -lisA'               # Detailed print.
-alias lh='ls -lisAd .[^.]*'       # Print only hidden files.
-alias ff='find . -type f -iname'  # Search file by name
-alias hs='history|grep -i '       # Case insensitive search in history.
-alias lsmount="mount | column -t" # Pretty print mounted partitions 
-alias mv='mv -iv'                 # Safe move.
-alias pdw="pwd"                   # Avoid typo.
+alias cd..="cd .."                            # Avoid typo.
+alias cp='cp -iv'                             # Safe copy.
+alias la='ls -lisA'                           # Detailed print.
+alias lh='ls -lisAd .[^.]*'                   # Print only hidden files.
+alias ff='find . -type f -iname'              # Search file by name
+alias hs='history|grep -i '                   # Case insensitive search in history.
+alias lsmount="mount | column -t"             # Pretty print mounted partitions
+alias mv='mv -iv'                             # Safe move.
+alias pdw="pwd"                               # Avoid typo.
 alias pwd='pwd && pwd | xclip -sel clipboard' # Do pwd and copy it!
-alias rm='rm -iv'                 # Safe remove.
-alias rms='shred -uz'             # Remove file.
-alias tgz='tar -xvzf'             # Untar.
+alias rm='rm -iv'                             # Safe remove.
+alias rms='shred -uz'                         # Remove file.
+alias tgz='tar -xvzf'                         # Untar.
 
 # alias mkdir='mkdir -pv'    # Make folder and its parents.
 # alias mvn='nice -5 mvn'
@@ -29,25 +29,25 @@ alias tgz='tar -xvzf'             # Untar.
 # Linux essentials https://youtu.be/Ok_kD_sgNcs
 
 alias cpu5="ps auxf | sort -nr -k 3 | head -5" # Top t processes using the most cpu.
-alias extip="curl icanhazip.com"  # Print my external ip address.
+alias extip="curl icanhazip.com"               # Print my external ip address.
 alias mem5="ps auxf | sort -nr -k 4 | head -5" # Top 5 processes using the most memory.
-alias speedtest="curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python3 -"         
+alias speedtest="curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python3 -"
 
 #------------------------------------------------------------------------------
 # Deprecated linux commands you should not use anymore (and their alternatives)
 # https://itsfoss.com/deprecated-linux-commands/
 
-alias      arp="echo 'STOP. Use instead ip n'"
-alias    egrep="echo 'STOP. Use instead grep -E'"
-alias    fgrep="echo 'STOP. Use instead grep -F'"
+alias arp="echo 'STOP. Use instead ip n'"
+alias egrep="echo 'STOP. Use instead grep -E'"
+alias fgrep="echo 'STOP. Use instead grep -F'"
 alias ifconfig="echo 'STOP. Use instead ip'"
 alias iptables="echo 'STOP. Use instead nftables'"
 alias iptunnel="echo 'STOP. Use instead ip link'"
 alias iwconfig="echo 'STOP. Use instead iw'"
-alias   nameif="echo 'STOP. Use instead ip route'"
-alias  netstat="echo 'STOP. Use instead ss'"
-alias    route="echo 'STOP. Use instead ip tunnel'"
-alias      scp="echo 'STOP. Use instead rsync'"
+alias nameif="echo 'STOP. Use instead ip route'"
+alias netstat="echo 'STOP. Use instead ss'"
+alias route="echo 'STOP. Use instead ip tunnel'"
+alias scp="echo 'STOP. Use instead rsync'"
 
 #------------------------------------------------------------------------------
 # Utilities
@@ -60,7 +60,7 @@ alias anime="~/Documents/github/ani-cli/./ani-cli"
 alias bat=batcat
 alias calendar="calcurse"
 alias explorer="nemo " # Linux Mint
-alias files="ranger" #alias files="nemo "
+alias files="ranger"   #alias files="nemo "
 alias gapminder="~/Documents/software/appimage/Gapminder+Offline.AppImage"
 alias git_gui="lazygit"
 
@@ -72,7 +72,9 @@ alias thesaurus="aiksaurus"
 alias translate="trans"
 alias wikipedia="wikipedia2text -s" # NOTE: It also requires w3m!
 
-alias docker="podman"
+#alias docker="podman"
+#alias docker="echo 'WARNING: Use podman instead!'"
+# alias docker-compose="echo 'WARNING: Use podman-compose instead!'"
 
 alias fd="/usr/bin/fdfind"
 
@@ -84,6 +86,9 @@ alias tigre="oneko -tora"
 
 alias periodic_table="periodic-table-cli"
 alias weather="curl wttr.in/Sao+Jose+dos+Campos?n"
+alias weather2="curl v2.wttr.in/Sao+Jose+dos+Campos?n"
+# alias weather="curl wttr.in/Bogota?n"
+# alias weather2="curl v2.wttr.in/Bogota?n"
 
 alias password="keepassxc-cli open ~/passdb.kdbx "
 alias password_find="keepassxc-cli search ~/passdb.kdbx "
@@ -101,6 +106,7 @@ alias radio_bebop="echo 'Reduce volume!'; cdown 4; mpv --cache=auto http://liste
 alias radio_bebop2="echo 'Reduce volume!'; cdown 4; mpv --cache=auto https://1.ice1.sslstream.com/kkjz_hd.aac"
 alias radio_black_metal="echo 'Reduce volume!'; cdown 4; mpv --cache=auto http://trueblackmetalradio.com:666/radio"
 alias radio_black_symphonic="echo 'Reduce volume!'; cdown 4; mpv --cache=auto http://79.111.119.111:8000/symphonicblackmetal"
+alias radio_classical="echo 'Reduce volume!'; cdown 4; mpv --cache=auto http://klassikr.streamabc.net/klr-opera-mp3-128-2609490?sABC=6841p61n%230%23q7s809s74070n543n7p5213q6qr39235%23jjj.xynffvxenqvb.qr&aw_0_1st.playerid=www.klassikradio.de&amsparams=playerid:www.klassikradio.de;skey:1749141018"
 alias radio_chillsynth="echo 'Reduce volume!'; cdown 4; mpv --cache=auto https://stream.nightride.fm/chillsynth.mp3"
 alias radio_chillout="echo 'Reduce volume!'; cdown 4; mpv --cache=auto http://strm112.1.fm/chilloutlounge_mobile_mp3"
 alias radio_darksynth="echo 'Reduce volume!'; cdown 4; mpv --cache=auto https://stream.nightride.fm/darksynth.mp3"
@@ -125,5 +131,6 @@ alias volume_high="amixer sset 'Master' 80%"
 
 alias youtube="ytfzf" # Install it from github!
 alias youtube_img="ytfzf -t"
-alias youtube_subs="ytfzf -cSI" 
+alias youtube_subs="ytfzf -cSI"
 
+alias moon="curl wttr.in/moon"
