@@ -1,9 +1,56 @@
 #!/bin/bash
-echo "Pomodoro..."
+
+command -v notify-send >/dev/null 2>&1 || {
+	echo >&2 " I require 'notify-send' but it's not installed. Aborting."
+	exit 1
+}
+
+echo "Pomodoro 1..."
+notify-send "Pomodoro 1..."
 cdown 1200
-echo "Pomodoro finished!"
+echo "Pomodoro 1 finished!"
+notify-send "Pomodoro 1 finished!"
 echo ""
 echo "Break..."
+notify-send "Break..."
 cdown 300
 echo "Break finished!"
+notify-send "Break finished!"
+
+echo "Pomodoro 2..."
+notify-send "Pomodoro 2..."
+cdown 1200
+echo "Pomodoro 2 finished!"
+notify-send "Pomodoro 2 finished!"
+echo ""
+echo "Break..."
+notify-send "Break..."
+cdown 300
+echo "Break finished!"
+notify-send "Break finished!"
+
+echo "Pomodoro 3..."
+notify-send "Pomodoro 3..."
+cdown 1200
+echo "Pomodoro 3 finished!"
+notify-send "Pomodoro 3 finished!"
+echo ""
+echo "Break..."
+notify-send "Break..."
+cdown 300
+echo "Break finished!"
+notify-send "Break finished!"
+
+echo "Pomodoro 4..."
+notify-send "Pomodoro 4..."
+cdown 1200
+echo "Pomodoro 4 finished!"
+notify-send "Pomodoro 4 finished!"
+echo ""
+echo "Long break..."
+notify-send "Long break..."
+cdown 900
+echo "Long break finished!"
+notify-send "Long break finished!"
+
 exit 0
