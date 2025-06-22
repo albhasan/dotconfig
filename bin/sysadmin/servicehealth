@@ -1,0 +1,10 @@
+#!/bin/bash
+SERVICES=("apache2" "mysql")
+EMAIL=user@localhost
+
+for SERVICE in "${SERVICES[@]}"; do
+    if ! systemctl is-active --quiet $SERVICE; then
+        systemctl start $SERVICE
+        echo "$SERVICE was down and has been restarted on $HOSTNAME" # | mail -s "Service Restart Alert" $EMAIL
+    fi
+done

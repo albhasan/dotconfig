@@ -1,0 +1,20 @@
+#!/bin/bash
+# Taken from https://www.tecmint.com/bash-scripts-linux-sysadmin/
+LOGFILE="/var/log/auth.log"
+LAST_RUN_FILE="/tmp/last_run_time"
+EMAIL=user@localhost
+
+if [ ! -f $LAST_RUN_FILE ]; then
+    date --date='5 minutes ago' +%s > $LAST_RUN_FILE
+fi
+
+LAST_RUN=$(cat $LAST_RUN_FILE)
+NOW=$(date +%s)
+
+awk -v last=$LAST_RUN -v now=$NOW '
+  $0 ~ /session opened for user/ {
+    cmd = "date -d \""$1" "$2" "$3"\" +%s"
+    cmd | getline t
+    close(cmd)
+    if (t >= last && t <= now) { print $0 } } ' $LOGFILE | mail -s "Login Alert - $HOSTNAME" $EMAIL echo $NOW > $LAST_RUN_FILE
+

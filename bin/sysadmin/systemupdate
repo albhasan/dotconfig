@@ -1,0 +1,11 @@
+#!/bin/bash
+# Taken from https://www.tecmint.com/bash-scripts-linux-sysadmin/
+
+LOGFILE="/var/log/sys-updates.log"
+EMAIL="user@localhost"
+
+echo "Starting updated on $(date)" >>$LOGFILE
+apt update && apt upgrade -y >>$LOGFILE 2>&1
+apt autoremove -y >>$LOGFILE 2>&1
+
+tail -20 $LOGFILE # | mail -s "System Update Report: $HOSTNAME" $EMAIL

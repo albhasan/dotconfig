@@ -1,0 +1,13 @@
+#!/bin/bash
+# Taken from https://www.tecmint.com/bash-scripts-linux-sysadmin/
+THRESHOLD=80
+EMAIL=user@localhost
+
+df -hP | grep -vE '^Filesystem|tmpfs|cdrom' | while read line; do
+    USAGE=$(echo $line | awk '{print $5}' | sed 's/%//')
+    MOUNTPOINT=$(echo $line | awk '{print $6}')
+
+    if [ $USAGE -ge $THRESHOLD ]; then
+        echo "WARNING: High disk usage on $MOUNTPOINT ($USAGE)" # | mail -s "Disk Alert: $HOSTNAME" $EMAIL
+    fi
+done
