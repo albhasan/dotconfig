@@ -18,6 +18,7 @@ alias pwd='pwd && pwd | xclip -sel clipboard' # Do pwd and copy it!
 alias rm='rm -iv'                             # Safe remove.
 alias rms='shred -uz'                         # Remove file.
 alias tgz='tar -xvzf'                         # Untar.
+alias sduo=sudo
 
 # alias mkdir='mkdir -pv'    # Make folder and its parents.
 # alias mvn='nice -5 mvn'
@@ -91,37 +92,41 @@ alias weather2="curl v2.wttr.in/Sao+Jose+dos+Campos?n"
 # alias weather2="curl v2.wttr.in/Bogota?n"
 
 alias password="keepassxc-cli open ~/passdb.kdbx "
+alias password_copy="keepassxc-cli clip  ~/passdb.kdbx "
+alias pwcp="keepassxc-cli clip  ~/passdb.kdbx "
 alias password_find="keepassxc-cli search ~/passdb.kdbx "
 alias password_search=password_find
-alias password_copy="keepassxc-cli clip  ~/passdb.kdbx "
 alias password_show="keepassxc-cli show ~/passdb.kdbx "
 
 alias pdfreader="zathura"
 alias pdfviewer="zathura"
 
+# TODO: Get the radio station name!
 alias music="cmus"
-alias lofi="mpv --cache=auto --fs https://www.youtube.com/watch?v=jfKfPfyJRdk" # Listen to the lofi girl on youtube.
-alias radio_blues="echo 'Reduce volume!'; cdown 4; mpv --cache=auto http://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3"
-alias radio_bebop="echo 'Reduce volume!'; cdown 4; mpv --cache=auto http://listen.181fm.com/181-bebop_128k.mp3"
-alias radio_bebop2="echo 'Reduce volume!'; cdown 4; mpv --cache=auto https://1.ice1.sslstream.com/kkjz_hd.aac"
-alias radio_black_metal="echo 'Reduce volume!'; cdown 4; mpv --cache=auto http://trueblackmetalradio.com:666/radio"
-alias radio_black_symphonic="echo 'Reduce volume!'; cdown 4; mpv --cache=auto http://79.111.119.111:8000/symphonicblackmetal"
-alias radio_classical="echo 'Reduce volume!'; cdown 4; mpv --cache=auto http://klassikr.streamabc.net/klr-opera-mp3-128-2609490?sABC=6841p61n%230%23q7s809s74070n543n7p5213q6qr39235%23jjj.xynffvxenqvb.qr&aw_0_1st.playerid=www.klassikradio.de&amsparams=playerid:www.klassikradio.de;skey:1749141018"
-alias radio_chillsynth="echo 'Reduce volume!'; cdown 4; mpv --cache=auto https://stream.nightride.fm/chillsynth.mp3"
-alias radio_chillout="echo 'Reduce volume!'; cdown 4; mpv --cache=auto http://strm112.1.fm/chilloutlounge_mobile_mp3"
-alias radio_darksynth="echo 'Reduce volume!'; cdown 4; mpv --cache=auto https://stream.nightride.fm/darksynth.mp3"
-alias radio_horrorsynth="echo 'Reduce volume!'; cdown 4; mpv --cache=auto https://stream.nightride.fm/horrorsynth.mp3"
+alias radio_jazzblues="echo 'Reduce volume!'; cdown 4; mpv --cache=auto     http://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3"
+alias radio_bebop="echo 'Reduce volume!'; cdown 4; mpv --cache=auto         http://listen.181fm.com/181-bebop_128k.mp3"
+alias radio_bebop2="echo 'Reduce volume!'; cdown 4; mpv --cache=auto        https://1.ice1.sslstream.com/kkjz_hd.aac"
 alias radio_metal_denmark="echo 'Reduce volume!'; cdown 4; mpv --cache=auto http://46.4.184.212:8000/;"
-alias radio_metal_france="echo 'Reduce volume!'; cdown 4; mpv --cache=auto http://hd.lagrosseradio.info/lagrosseradio-metal-192.mp3"
-alias radio_metal_germany="echo 'Reduce volume!'; cdown 4; mpv --cache=auto http://s8-webradio.rockantenne.de/heavy-metal"
-alias radio_metal_norway="echo 'Reduce volums!'; cdown 4; mpv -cache=auto http://s39.myradiostream.com:11590/;"
-alias radio_metal_poland="echo 'Reduce volume!'; cdown 4; mpv --cache=auto http://stream.open.fm/108"
-alias radio_metal_usa="echo 'Reduce volume!'; cdown 4; mpv --cache=auto https://ice5.somafm.com/metal-128-aac"
 alias radio_opera_romania="echo 'Reduce volume!'; cdown 4; mpv --cache=auto http://37.251.146.169:7500/stream"
-alias radio_radionica="echo 'Reduce volume!'; cdown 4; mpv --cache=auto http://shoutcast.rtvc.gov.co:8010/;"
-alias radio_synthwave="echo 'Reduce volume!'; cdown 4; mpv --cache=auto http://188.40.97.185:8179/stream"
-alias radio_techno_germany="echo 'Reduce volume!'; cdown 4; mpv --cache=auto http://sunsl.streamabc.net/sunsl-techno-mp3-192-4912904?sABC=65s434qn%230%236080533n48sp2nrq0o4389q6o67o3qps%23fgernz.fhafuvar-yvir.qr&aw_0_1st.playerid=stream.sunshine-live.de&amsparams=playerid:stream.sunshine-live.de;skey:1710503130"
-alias radio_ud="echo 'Reduce volume!'; cdown 4; mpv --cache=auto http://200.69.103.69:8000/laud"
+alias radio_synthwave="echo 'Reduce volume!'; cdown 4; mpv --cache=auto     http://188.40.97.185:8179/stream"
+
+alias radio_chilloutlounge_mobile="echo 'Reduce volume!'; cdown 4; mpv --cache=auto   http://strm112.1.fm/chilloutlounge_mobile_mp3"
+alias radio_klassikr="echo 'Reduce volume!'; cdown 4; mpv --cache=auto                http://klassikr.streamabc.net/klr-opera-mp3-128-2609490?sABC=6841p61n%230%23q7s809s74070n543n7p5213q6qr39235%23jjj.xynffvxenqvb.qr&aw_0_1st.playerid=www.klassikradio.de&amsparams=playerid:www.klassikradio.de;skey:1749141018"
+alias radio_lofi="mpv --cache=auto --fs                                               https://www.youtube.com/watch?v=jfKfPfyJRdk" # Listen to the lofi girl on youtube.
+alias radio_myradiostream="echo 'Reduce volums!'; cdown 4; mpv -cache=auto            http://s39.myradiostream.com:11590/;"
+alias radio_nightride_chillsynt="echo 'Reduce volume!'; cdown 4; mpv --cache=auto     https://stream.nightride.fm/chillsynth.mp3"
+alias radio_nightride_darksynth="echo 'Reduce volume!'; cdown 4; mpv --cache=auto     https://stream.nightride.fm/darksynth.mp3"
+alias radio_nightride_horrorsynth="echo 'Reduce volume!'; cdown 4; mpv --cache=auto   https://stream.nightride.fm/horrorsynth.mp3"
+alias radio_openfm="echo 'Reduce volume!'; cdown 4; mpv --cache=auto                  http://stream.open.fm/108"
+alias radio_radionica="echo 'Reduce volume!'; cdown 4; mpv --cache=auto               http://shoutcast.rtvc.gov.co:8010/;"
+alias radio_rockantenne_heavy_metal="echo 'Reduce volume!'; cdown 4; mpv --cache=auto http://s8-webradio.rockantenne.de/heavy-metal"
+alias radio_somafm_metal="echo 'Reduce volume!'; cdown 4; mpv --cache=auto            https://ice5.somafm.com/metal-128-aac"
+alias radio_streamabc_techno="echo 'Reduce volume!'; cdown 4; mpv --cache=auto        http://sunsl.streamabc.net/sunsl-techno-mp3-192-4912904?sABC=65s434qn%230%236080533n48sp2nrq0o4389q6o67o3qps%23fgernz.fhafuvar-yvir.qr&aw_0_1st.playerid=stream.sunshine-live.de&amsparams=playerid:stream.sunshine-live.de;skey:1710503130"
+alias radio_symphonic_black_metal="echo 'Reduce volume!'; cdown 4; mpv --cache=auto   http://79.111.119.111:8000/symphonicblackmetal"
+alias radio_true_black_metal="echo 'Reduce volume!'; cdown 4; mpv --cache=auto        http://trueblackmetalradio.com:666/radio"
+alias radio_ud="echo 'Reduce volume!'; cdown 4; mpv --cache=auto                      http://200.69.103.69:8000/laud"
+alias radio_xwage="echo 'Reduce volume!'; cdown 4; mpv --cache=auto                   https://mediaserv38.live-streams.nl:18040/live"
+alias radio_salsa_dura="echo 'Rduce volume!'; cdown 4; mpv --cache=auto               https://play10.tikast.com/proxy/colsalsadura?mp=/stream"
 
 alias rss="newsboat"
 
