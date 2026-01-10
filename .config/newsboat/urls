@@ -4,8 +4,8 @@ https://ffrf.org/feed                                         "~Skepticism | Fre
 https://www.skeptic.com/rss                                   "~Skepticism | Skeptic magazine"
 https://centerforinquiry.org/feed                             "~Skepticism | Center for Inquiry"
 
-https://www.lasillavacia.com/feed                             "~News | La Silla Vacia"
-https://www.theguardian.com/international/rss                 "~News | The Guardian"
+#https://www.lasillavacia.com/feed                             "~News | La Silla Vacia"
+#https://www.theguardian.com/international/rss                 "~News | The Guardian"
 
 https://www.ipcc.ch/rss                                       "~Climate |IPCC"
 https://earthobservatory.nasa.gov/feeds/earth-observatory.rss "~Climate | NASA Earth Observatory"
@@ -21,6 +21,12 @@ https://www.xkcd.com/rss.xml                                 "~Comics | xkdc" "c
 https://centreforwildfires.org/feed/                         "~Fire | Leverhulme Wildfires Centre"
 https://wildfire.geog.kcl.ac.uk/feed/                        "~Fire | King's College EO & Wildfire Research Group"
 
+https://globalcarbonbudget.org/feed/                         "~Education | Global Carbon Budget"
+https://globalcarbonatlas.org/feed/                          "~Education | Global Carbon Atlas"
+
+https://eebiomass.org/feed/                                  "~Education | Earth Explorer BIOMASS"
+https://portal.maap.eo.esa.int/feed/                         "~Education | ESA MAAP BIOMASS"
+
 https://52north.org/feed/                                    "~Education | 52 North" "edu/ifgi/52°North Initiative for Geospatial Open Source Software GmbH"
 https://www.iaaa.es/feed                                     "~Education | Advanced Information Systems Lab" "edu/Advanced Information Systems Laboratory"
 https://info.bc3research.org/feed/                           "~Education | Basque Centre for Climate Change" "edu/Basque Centre for Climate Change"
@@ -28,12 +34,9 @@ https://eesa.lbl.gov/feed                                    "~Education | Berke
 https://carpentries.org/feed.xml                             "~Education | The Carpentries"
 https://www.cirad.fr/en/rss/cirad-actualites-news            "~Education | CIRAD" "edu/CIRAD - Actualités  News"
 https://www.esciencecenter.nl/feed                           "~Education | eScience Center"
-https://portal.maap.eo.esa.int/feed/                         "~Education | ESA MAAP BIOMASS"
 https://geoai.geog.buffalo.edu/posts/feed/                   "~Education | GeoAI Lab" "edu/GeoAI"
 https://geosocial.zgis.at/feed                               "~Education | GeoSocial Analytics Lab" "edu/Geosocial Analytics Lab"
 https://geods.geography.wisc.edu/archives/category/news/feed "~Education | GeoSpatial Data Science Lab" "edu/GeoDS Lab"
-https://globalcarbonbudget.org/feed/                         "~Education | Global Carbon Budget"
-https://globalcarbonatlas.org/feed/                          "~Education | Global Carbon Atlas"
 https://heigit.org/rss                                       "~Education | Heidelberg Institute for Geoinformation Technology" "edu/Heidelberg Institute for Geoinformation Technology"
 http://www.uni-muenster.de/Geoinformatics/en/news/index.rss  "~Education | IFGI news" "edu/ifgi/IFGI news"
 https://kiste-project.de/feed                                "~Education | IFGI Kiste Project" "edu/ifgi/Kiste Project"
