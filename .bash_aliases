@@ -138,4 +138,25 @@ alias youtube="ytfzf" # Install it from github!
 alias youtube_img="ytfzf -t"
 alias youtube_subs="ytfzf -cSI"
 
+alias youtube-dl='python3 /usr/local/bin/youtube-dl'
+
 alias moon="curl wttr.in/moon"
+
+alias rot13="tr 'A-Za-z' 'N-ZA-Mn-za-m'"
+
+# Flatpaks
+alias rednotebook_fp='flatpak run app.rednotebook.RedNotebook & > /dev/null 2>&1'
+alias mangareader_fp='flatpak run com.georgefb.mangareader & > /dev/null 2>&1'
+alias blanket_fp='flatpak run com.rafaelmardojai.Blanket & > /dev/null 2>&1'
+alias shortwave_fp='flatpak run de.haeckerfelix.Shortwave & > /dev/null 2>&1'
+alias keypunch_fp='flatpak run dev.bragefuglseth.Keypunch & > /dev/null 2>&1'
+alias dejadup_fp='flatpak run org.gnome.DejaDup & > /dev/null 2>&1'
+alias easytag_fp='flatpak run org.gnome.EasyTAG & > /dev/null 2>&1'
+alias snapshot_fp='flatpak run org.gnome.Snapshot & > /dev/null 2>&1'
+alias okular_fp='flatpak run org.kde.okular & > /dev/null 2>&1'
+alias qgis_fp='flatpak run org.qgis.qgis & > /dev/null 2>&1'
+alias signal_fp='flatpak run org.signal.Signal & > /dev/null 2>&1'
+alias telegram_fp='flatpak run org.telegram.desktop & > /dev/null 2>&1'
+alias zotero_fp='flatpak run org.zotero.Zotero & > /dev/null 2>&1'
+
+alias render_md=glow
