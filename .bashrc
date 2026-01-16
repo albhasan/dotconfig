@@ -178,5 +178,16 @@ export WASMER_DIR="/home/alber/.wasmer"
 #NOTE: This doesn't work!
 #export MANPAGER='nvim +Man!'
 
+# Start using pyenv (check man pyenv).
+# NOTE: It didn't work"
+# if command -v pyenv 1>/dev/null 2>&1;
+#         eval "$(pyenv init - bash)"
+# fi
+
+# Set up your shell environment for Pyenv (github instructions1).
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init - bash)"
+
 # Add bftools (OMERO-TIFF manipulation software)
 export PATH="/home/alber/Documents/software/bftools:$PATH"
