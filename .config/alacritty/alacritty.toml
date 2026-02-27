@@ -1,4 +1,3 @@
-
 [env]
 TERM = "xterm-256color"
 
@@ -29,7 +28,7 @@ multiplier = 3
 blur = true
 decorations = "none"
 opacity = 0.9
-startup_mode="Fullscreen"
+startup_mode="Windowed"
 
 [window.padding]
 x = 3
@@ -37,6 +36,10 @@ y = 3
 
 [general]
 live_config_reload = true
+# import = ["/home/alber/Documents/github/dotconfig/.config/alacritty/themes/themes/synthwave_84.toml"]
+import = ["/home/alber/Documents/github/dotconfig/.config/alacritty/themes/themes/catppuccin.toml"]
+# import = ["/home/alber/Documents/github/dotconfig/.config/alacritty/themes/themes/tokyo_night.toml"]
+# import = ["/home/alber/Documents/github/dotconfig/.config/alacritty/themes/themes/afterglow.toml"]
 
 [cursor]
 blink_interval=600
