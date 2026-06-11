@@ -184,10 +184,11 @@ export WASMER_DIR="/home/alber/.wasmer"
 #         eval "$(pyenv init - bash)"
 # fi
 
-# Set up your shell environment for Pyenv (github instructions1).
+# Set up your shell environment for Pyenv (github instructions; this works!).
 export PYENV_ROOT="$HOME/.pyenv"
 [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init - bash)"
 
 # Add bftools (OMERO-TIFF manipulation software)
 export PATH="/home/alber/Documents/software/bftools:$PATH"
+export PATH="$PATH:/opt/nvim/"
