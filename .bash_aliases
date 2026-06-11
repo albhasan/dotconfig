@@ -112,7 +112,8 @@ alias radio_synthwave="echo 'Reduce volume!'; cdown 4; mpv --cache=auto     http
 
 alias radio_chilloutlounge_mobile="echo 'Reduce volume!'; cdown 4; mpv --cache=auto   http://strm112.1.fm/chilloutlounge_mobile_mp3"
 alias radio_klassikr="echo 'Reduce volume!'; cdown 4; mpv --cache=auto                http://klassikr.streamabc.net/klr-opera-mp3-128-2609490?sABC=6841p61n%230%23q7s809s74070n543n7p5213q6qr39235%23jjj.xynffvxenqvb.qr&aw_0_1st.playerid=www.klassikradio.de&amsparams=playerid:www.klassikradio.de;skey:1749141018"
-alias radio_lofi="mpv --cache=auto --fs                                               https://www.youtube.com/watch?v=jfKfPfyJRdk" # Listen to the lofi girl on youtube.
+alias radio_lofi="echo 'Reduce volume!'; cdown 4; mpv --cache=auto --fs               https://www.youtube.com/watch?v=jfKfPfyJRdk" # Listen to the lofi girl on youtube.
+alias radio_laut_synthave="echo 'Reduce volume!'; cdown 4; mpv --cache=auto --fs      https://stream.laut.fm/synthwave"
 alias radio_myradiostream="echo 'Reduce volums!'; cdown 4; mpv -cache=auto            http://s39.myradiostream.com:11590/;"
 alias radio_nightride_chillsynt="echo 'Reduce volume!'; cdown 4; mpv --cache=auto     https://stream.nightride.fm/chillsynth.mp3"
 alias radio_nightride_darksynth="echo 'Reduce volume!'; cdown 4; mpv --cache=auto     https://stream.nightride.fm/darksynth.mp3"
@@ -160,3 +161,5 @@ alias telegram_fp='flatpak run org.telegram.desktop & > /dev/null 2>&1'
 alias zotero_fp='flatpak run org.zotero.Zotero & > /dev/null 2>&1'
 
 alias render_md=glow
+
+alias cheatsheet="cht.sh"
