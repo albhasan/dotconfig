@@ -27,12 +27,15 @@ https://globalcarbonatlas.org/feed/                          "~Education | Globa
 https://eebiomass.org/feed/                                  "~Education | Earth Explorer BIOMASS"
 https://portal.maap.eo.esa.int/feed/                         "~Education | ESA MAAP BIOMASS"
 
+
+https://www.gzn.nat.fau.eu/feed                              "~Education | Geozentrum Nordbayern""
 https://52north.org/feed/                                    "~Education | 52 North" "edu/ifgi/52°North Initiative for Geospatial Open Source Software GmbH"
 https://www.iaaa.es/feed                                     "~Education | Advanced Information Systems Lab" "edu/Advanced Information Systems Laboratory"
 https://info.bc3research.org/feed/                           "~Education | Basque Centre for Climate Change" "edu/Basque Centre for Climate Change"
 https://eesa.lbl.gov/feed                                    "~Education | Berkeley Lab" "edu/BerkeleyLab-EESA"
 https://carpentries.org/feed.xml                             "~Education | The Carpentries"
 https://www.cirad.fr/en/rss/cirad-actualites-news            "~Education | CIRAD" "edu/CIRAD - Actualités  News"
+https://cenia.cl/feed/                                       "~Education | CNIA Centro Chileno de inteligencia artificial" "tutorials"
 https://www.esciencecenter.nl/feed                           "~Education | eScience Center"
 https://geoai.geog.buffalo.edu/posts/feed/                   "~Education | GeoAI Lab" "edu/GeoAI"
 https://geosocial.zgis.at/feed                               "~Education | GeoSocial Analytics Lab" "edu/Geosocial Analytics Lab"
@@ -63,6 +66,7 @@ https://www.raisg.org/en/rss                                    "~GIS | Amazon N
 https://www.blogger.com/feeds/7797431205725571762/posts/default "~GIS | Geo tips and tricks"
 https://grass.osgeo.org/index.xml                               "~GIS | GRASS GIS"
 https://openforis.org/feed                                      "~GIS | Open Foris"
+https://qgisbrasil.org                                          "~GIS | QGIS Brazil"
 
 http://rss.dw-world.de/xml/Dkpodcast_videothema_de              "~Languages | Deutsch lernen"
 http://rss.dw.com/xml/DKpodcast_jojo_de                         "~Languages | Jojo sucht das Glück"
@@ -102,6 +106,7 @@ https://joss.theoj.org/papers/published.atom              "~Tech | Journal of Op
 http://itsfoss.com/feed                                   "~Tech | itsfoss"
 https://opensource.com/feed                               "~Tech | OpenSource"
 https://www.tecmint.com/feed/                             "~Tech | Tecmint"
+https://www.sovereign.tech/feed.rss                       "~Tech | Sovereign Tech Agency"
 
 https://www.alumniportal-deutschland.org/index.php?id=514&type=789 "~Other | Deutschland Alumini portal"
 
@@ -313,7 +318,7 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCPb7xe-MQ0KiJpaKBWFZtTA "~Y
 https://www.youtube.com/feeds/videos.xml?channel_id=UCtYLUTtgS3k1Fg4y5tAhLbw "~YT statistics | StatQuest"
 
 https://www.youtube.com/feeds/videos.xml?channel_id=UCL_r1ELEvAuN0peKUxI0Umw "~YT tutorials | Discover Permaculture with Geoff Lawton"
-https://www.youtube.com/feeds/videos.xml?channel_id=UC2zHjOF9Womes-SEjdzTleA "~YT tutorials | Google Earth"
+#https://www.youtube.com/feeds/videos.xml?channel_id=UC2zHjOF9Womes-SEjdzTleA "~YT tutorials | Google Earth"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCWWPKhD0fbAHHMg9_i6JQ5A "~YT tutorials | MyWhyU"
 https://www.youtube.com/feeds/videos.xml?channel_id=UC6HFFFYiV4zEYJlQMIXemWA "~YT tutorials | OpenGeoHub Foundation"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCNJK6_DZvcMqNSzQdEkzvzA "~YT tutorials | Richard McElreath"
