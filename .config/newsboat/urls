@@ -21,12 +21,16 @@ https://www.xkcd.com/rss.xml                                 "~Comics | xkdc" "c
 https://centreforwildfires.org/feed/                         "~Fire | Leverhulme Wildfires Centre"
 https://wildfire.geog.kcl.ac.uk/feed/                        "~Fire | King's College EO & Wildfire Research Group"
 
-https://globalcarbonbudget.org/feed/                         "~Education | Global Carbon Budget"
+https://www.climateworks.org/feed/                           "~Funding | climateworks foundation"
+https://climaesociedade.org/feed                             "~Funding | Instituto Clima e Sociedade"
+
 https://globalcarbonatlas.org/feed/                          "~Education | Global Carbon Atlas"
+https://globalcarbonbudget.org/feed/                         "~Education | Global Carbon Budget"
 
 https://eebiomass.org/feed/                                  "~Education | Earth Explorer BIOMASS"
 https://portal.maap.eo.esa.int/feed/                         "~Education | ESA MAAP BIOMASS"
 
+https://lancetcountdown.org/feed                             "~Education | The Lancet countdown""
 
 https://www.gzn.nat.fau.eu/feed                              "~Education | Geozentrum Nordbayern""
 https://52north.org/feed/                                    "~Education | 52 North" "edu/ifgi/52°North Initiative for Geospatial Open Source Software GmbH"
@@ -45,16 +49,19 @@ http://www.uni-muenster.de/Geoinformatics/en/news/index.rss  "~Education | IFGI 
 https://kiste-project.de/feed                                "~Education | IFGI Kiste Project" "edu/ifgi/Kiste Project"
 http://www.inpe.br/rss.php                                   "~Education | INPE news" "edu/inpe/INPE news"
 https://www.iarai.ac.at/feed                                 "~Education | Institute of Advanced Research in AI" "edu/IARAI"
-https://climaesociedade.org/feed                             "~Education | Instituto Clima e Sociedade"
 https://feeds.feedburner.com/IWMI-news                       "~Education | International Water Management Institute"
 https://ml4earth.de/feed                                     "~Education | ML4Earth"
 https://climate.nasa.gov/news/rss.xml                        "~Education | NASA climate" "edu/Global Climate Change - Vital Signs of the Planet - News RSS Feed"
 http://openeo.org/feed.xml                                   "~Education | OpenEO" "edu/ifgi/openEO"
-#https://open-research-europe.ec.europa.eu/published/rss      "~Education | Open Research Europe"
+#https://open-research-europe.ec.europa.eu/published/rss     "~Education | Open Research Europe"
 https://www.redlatif.org/feed/                               "~Education | RedLatTIF"
 https://ropensci.org/tags/newsletter/index.xml               "~Education | rOpenSci"
 https://rslab.disi.unitn.it/feed                             "~Education | RSLab UniTrento" "edu/RSLab UniTrento"
+
 https://society-rse.org/feed                                 "~Education | Society of Research Software Engineering" "edu/Society of Research Software Engineering"
+https://www.researchsoft.org/index.xml                       "~Education | Research Software Alliance"
+https://cass.community/feed.xml                              "~Education | Consortium for the Advancement of Scientific Software"
+
 https://www.treeslab.org/1/feed                              "~Education | TREESLab" "edu/inpe/TREES Research Lab - NEWS"
 https://www.uv.es/fatwirepub/Satellite?pagename=UV/Page/TPGNovedadesSindicadas&c=Page&cs.contenttype=application/xml;charset=UTF-8&pageId=1285860188160&site=345&locale=en_GB&tipo=D "~Education | Earth Physics and Thermodynamics Department"      "~Education | U Valencia - Earth Physics and Thermodynamics Department"
 https://www.permaculture.org/news/feed/                      "~Education | Permaculture institute"
