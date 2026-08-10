@@ -72,6 +72,8 @@ alias worterbuch="dict -d fd-deu-eng"
 alias thesaurus="aiksaurus"
 alias translate="trans"
 alias wikipedia="wikipedia2text -s" # NOTE: It also requires w3m!
+alias wiki="wikipedia2text -s"      # NOTE: It also requires w3m!
+alias wordnet="wn"
 
 #alias docker="podman"
 #alias docker="echo 'WARNING: Use podman instead!'"
