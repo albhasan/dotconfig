@@ -1,6 +1,8 @@
-Sys.setenv('_R_CHECK_SYSTEM_CLOCK_' = 0)
+Sys.setenv("_R_CHECK_SYSTEM_CLOCK_" = 0)
 # Check ?Rprofile in R's console
 # Check  Three tricks to make IDEs other than Rstudio better for R development https://youtu.be/uxyhmhRVOfw?si=Jksjl4IRy4lqWwF3
+
+options(menu.grpahics = FALSE)
 
 # Use this to navigate plots when programming using the linux console.
 # httpgd::hgd()
